@@ -1,0 +1,2077 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "CM-M",
+				"abbreviation": "CM-M",
+				"full": "Candlekeep Mysteries Modified",
+				"url": "",
+				"authors": [
+					"Ben Dickinson"
+				],
+				"convertedBy": [],
+				"color": "#00d1b9"
+			}
+		],
+		"dateAdded": 1586966344,
+		"dateLastModified": 1692309855
+	},
+	"monster": [
+		{
+			"name": "Valin",
+			"source": "CM-M",
+			"page": 1,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "36d8 + 144",
+				"average": 306
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 18,
+			"int": 11,
+			"wis": 20,
+			"cha": 16,
+			"save": {
+				"con": "+9",
+				"int": "+5",
+				"wis": "+10",
+				"cha": "+8"
+			},
+			"skill": {
+				"history": "+5",
+				"religion": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": {
+				"cr": "15",
+				"lair": "16"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Valin is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). Valin has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell command}",
+								"{@spell guiding bolt}",
+								"{@spell shield of faith}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell hold person}",
+								"{@spell silence}",
+								"{@spell spiritual weapon}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell animate dead}",
+								"{@spell dispel magic}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell divination}",
+								"{@spell guardian of faith}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell contagion}",
+								"{@spell insect plague}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell harm}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Valin has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"Valin gains a new body in 24 hours if her heart is intact, regaining all her hit points and becoming active again. The new body appears within 5 feet of Valin's heart."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Valin can use her Dreadful Glare and makes one attack with her rotting fist."
+					]
+				},
+				{
+					"name": "Rotting Fist",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 5}) bludgeoning damage plus 21 ({@damage 6d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the {@spell remove curse} spell or other magic."
+					]
+				},
+				{
+					"name": "Dreadful Glare",
+					"entries": [
+						"Valin targets one creature it can see within 60 feet of it. If the target can see the Valin, it must succeed on a {@dc 16} Wisdom saving throw against this magic or become {@condition frightened} until the end of Valin's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy lords for the next 24 hours."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Valin makes one attack with her rotting fist or uses her Dreadful Glare."
+					]
+				},
+				{
+					"name": "Blinding Dust",
+					"entries": [
+						"Blinding dust and sand swirls magically around Valin. Each creature within 5 feet of Valin must succeed on a {@dc 16} Constitution saving throw or be {@condition blinded} until the end of the creature's next turn."
+					]
+				},
+				{
+					"name": "Blasphemous Word (Costs 2 Actions)",
+					"entries": [
+						"Valin utters a blasphemous word. Each non-undead creature within 10 feet of Valin that can hear the magical utterance must succeed on a {@dc 16} Constitution saving throw or be {@condition stunned} until the end Valin's next turn."
+					]
+				},
+				{
+					"name": "Channel Negative Energy (Costs 2 Actions)",
+					"entries": [
+						"Valin magically unleashes negative energy. Creatures within 60 feet of Valin including ones behind barriers and around corners, can't regain hit points until the end of Valin's next turn."
+					]
+				},
+				{
+					"name": "Whirlwind of Sand (Costs 2 Actions)",
+					"entries": [
+						"Valin magically transforms into a whirlwind of sand, moves up to 60 feet, and reverts to her normal form. While in whirlwind form, Valin is immune to all damage, and it can't be {@condition grappled}, {@condition petrified}, knocked {@condition prone}, {@condition restrained}, or {@condition stunned}. Equipment worn or carried by Valin remain in its possession."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Mummy Lord",
+				"source": "MM"
+			},
+			"environment": [
+				"desert"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/mummy-lord.mp3"
+			},
+			"traitTags": [
+				"Magic Resistance",
+				"Rejuvenation"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"blinded",
+				"frightened",
+				"paralyzed",
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened",
+				"paralyzed",
+				"poisoned",
+				"prone",
+				"stunned"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/CM/Valin%20Sarnaster.png",
+			"fluff": {
+				"entries": [
+					"[",
+					{
+						"type": "entries",
+						"entries": [
+							"Valin Sarnaster has been thoroughly corrupted by visions of a future in which she sees herself as the immortal heir of Savras's realm.{@i The Canopic Being}came into her possession years ago, and an obsession with the dark rituals therein set the oracle on her present course.",
+							"Valin has become a powerful undead as the first step on her path to godhood, and is now a mummy lord.",
+							"Valin can use her lair actions in any area of the tomb."
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Valin Sarnaster's Lair",
+								"entries": [
+									"Valin can use her lair actions in any area of the tomb."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Lair Actions",
+								"entries": [
+									"On initiative count 20 (losing initiative ties), Valin takes a lair action to cause one of the following effects; Valin can't use the same effect two rounds in a row.",
+									{
+										"type": "list",
+										"items": [
+											"Each undead creature in the lair can pinpoint the location of each living creature within 120 feet of it until initiative count 20 on the next round.",
+											"Each undead in the lair has advantage on saving throws against effects that turn undead until initiative count 20 on the next round.",
+											"Until initiative count 20 on the next round, any non-undead creature that tries to cast a spell of 4th level or lower in Valin's lair is wracked with pain. The creature can choose another action, but if it tries to cast the spell, it must make a DC 16 Constitution saving throw. On a failed save, it takes {@damage 1d6} necrotic damage per level of the spell, and the spell has no effect and is wasted."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Regional Effects",
+								"entries": [
+									"Valin's tomb is warped in any of the following ways by the creature's dark presence:",
+									{
+										"type": "list",
+										"items": [
+											"Food instantly molders and water instantly evaporates when brought into the lair. Other nonmagical drinks are spoiled—wine turning to vinegar, for instance.",
+											"{@spell Divination} spells cast within the lair by creatures other than Valin have a {@chance 25|25 percent} chance to provide misleading results, as determined by the DM. If a {@spell divination} spell already has a chance to fail or become unreliable when cast multiple times, that chance increases by 25 percent.",
+											"A creature that takes treasure from the lair is cursed until the treasure is returned. The cursed target has disadvantage on all saving throws. The curse lasts until removed by a {@spell remove curse} spell or other magic."
+										]
+									},
+									"If Valin is destroyed, these regional effects end immediately."
+								]
+							}
+						]
+					},
+					"]"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/CM/Valin%20Sarnaster.jpg"
+						}
+					}
+				]
+			},
+			"isNamedCreature": true,
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"P",
+				"R"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"savingThrowForcedLegendary": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Zikzokrishka",
+			"group": [
+				"Metallic Dragon"
+			],
+			"source": "CM-M",
+			"page": 1,
+			"size": [
+				"G"
+			],
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "40d20 + 280",
+				"average": 700
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40,
+				"fly": 80
+			},
+			"str": 27,
+			"dex": 10,
+			"con": 25,
+			"int": 16,
+			"wis": 15,
+			"cha": 20,
+			"save": {
+				"dex": "+6",
+				"con": "+13",
+				"wis": "+8",
+				"cha": "+11"
+			},
+			"skill": {
+				"history": "+9",
+				"perception": "+14",
+				"persuasion": "+11",
+				"stealth": "+6"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 24,
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "20",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 18} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Fire Breath",
+									"entry": "The dragon exhales fire in a 90-foot line that is 10 feet wide. Each creature in that line must make a {@dc 21} Dexterity saving throw, taking 56 ({@damage 16d6}) fire damage on a failed save, or half as much damage on a successful one."
+								},
+								{
+									"type": "item",
+									"name": "Sleep Breath",
+									"entry": "The dragon exhales sleep gas in a 90-foot cone. Each creature in that area must succeed on a {@dc 21} Constitution saving throw or fall {@condition unconscious} for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+						"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a {@dc 22} Dexterity saving throw or take 15 ({@damage 2d6 + 8}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Brass Dragon",
+				"source": "MM"
+			},
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Customizing Dragons",
+					"source": "FTD",
+					"page": 33,
+					"entries": [
+						"You can customize any dragon's stat block to reflect the dragon's unique character. Minor changes such as those below are easy to make and have no impact on a dragon's challenge rating.",
+						{
+							"type": "entries",
+							"name": "Languages",
+							"entries": [
+								"Most dragons prefer to speak Draconic but learn Common for dealing with allies and minions. But given their high Intelligence and long life span, dragons can easily learn additional languages. You can add languages to a dragon's stat block."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Skills",
+							"entries": [
+								"Most dragons are proficient in the {@skill Perception} and {@skill Stealth} skills, and many dragons have additional skill proficiencies. As with languages, you can customize a dragon's skill list (even doubling their proficiency bonus with certain skills) to reflect particular interests and activities. You can also give a dragon tool proficiencies, particularly if the dragon spends time in Humanoid form."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spells",
+							"entries": [
+								"{@note See the \"Variant: Dragons as Innate Spellcasters\" inset(s), below.}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Other Traits and Actions",
+							"entries": [
+								"You can borrow traits and actions from other monsters to add unique flavor to a dragon. Consider these examples:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Change Shape",
+											"entries": [
+												"You can decide that a dragon acquires this action at a younger age than usual, particularly if you want to feature a dragon in Humanoid form in your campaign:",
+												"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+												"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Flyby",
+											"entries": [
+												"The dragon is an agile flier, quick to fly out of enemies' reach.",
+												"The dragon doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Mimicry",
+											"entries": [
+												"Impersonating characters or their allies could be a fun trick for a crafty dragon.",
+												"The dragon can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 12} Wisdom ({@skill Insight}) check."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Rejuvenation",
+											"entries": [
+												"You might decide that dragons in your campaign, being an essential part of the Material Plane, are nearly impossible to destroy. A dragon's life essence might be preserved in the egg from which it first emerged, in its hoard, or in a cavernous hall at the center of the world, just as a lich's essence is hidden in a phylactery.",
+												"If it has an essence-preserving object, a destroyed dragon gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the object."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Special Senses",
+											"entries": [
+												"Most dragons have {@sense blindsight} and {@sense darkvision}. You might upgrade {@sense blindsight} to {@sense truesight}, or you could give a dragon with a burrowing speed {@sense tremorsense|MM}."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Tunneler",
+											"entries": [
+												"The dragon can burrow through solid rock at half its burrowing speed and leaves a tunnel in its wake."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"environment": [
+				"desert"
+			],
+			"dragonCastingColor": "brass",
+			"dragonAge": "ancient",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/brass-dragon.mp3"
+			},
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Frightful Presence",
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone",
+				"unconscious"
+			],
+			"conditionInflictLegendary": [
+				"blinded",
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Ancient Brass Dragon.png",
+			"fluff": {
+				"name": "Ancient Brass Dragon",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The most gregarious of the true dragons, brass dragons crave conversation, sunlight, and hot, dry climates.",
+									"A brass dragon's head is defined by the broad protective plate that expands from its forehead and the spikes protruding from its chin. A frill runs the length of its neck, and its tapering wings extend down the length of its tail. A brass dragon wyrmling's scales are a dull, mottled brown. As it ages, the dragon's scales begin to shine, eventually taking on a warm, burnished luster. Its wings and frills are mottled green toward the edges, darkening with age. As a brass dragon grows older, its pupils fade until its eyes resemble molten metal orbs.",
+									{
+										"name": "Boldly Talkative",
+										"type": "entries",
+										"entries": [
+											"A brass dragon engages in conversations with thousands of creatures throughout its long life, accumulating useful information which it will gladly share for gifts of treasure. If an intelligent creature tries to leave a brass dragon's presence without engaging in conversation, the dragon follows it. If the creature attempts to escape by magic or force, the dragon might respond with a fit of pique, using its sleep gas to incapacitate the creature. When it wakes, the creature finds itself pinned to the ground by giant claws or buried up to its neck in the sand while the dragon's thirst for small talk is slaked.",
+											"A brass dragon is trusting of creatures that appear to enjoy conversation as much as it does, but is smart enough to know when it is being manipulated. When that happens, the dragon often responds in kind, treating a bout of mutual trickery as a game."
+										]
+									},
+									{
+										"name": "Prized Treasures",
+										"type": "entries",
+										"entries": [
+											"Brass dragons covet magic items that allow them to converse with interesting personalities. An intelligent telepathic weapon or a magic lamp with a djinni bound inside it are among the greatest treasures a brass dragon can possess.",
+											"Brass dragons conceal their hoards under mounds of sand or in secret places far from their primary lairs. They have no trouble remembering where their treasure is buried, and therefore have no need for maps. Adventurers and wanderers should be wary if they happen across a chest hidden in an oasis or a treasure cache tucked away in a half-buried desert ruin, for these might be parts of a brass dragon's hoard."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "A Brass Dragon's Lair",
+						"entries": [
+							"A brass dragon's desert lair is typically a ruin, canyon, or cave network with ceiling holes to allow for sunlight."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Metallic Dragons",
+						"entries": [
+							"Metallic dragons seek to preserve and protect, viewing themselves as one powerful race among the many races that have a place in the world.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"name": "Noble Curiosity",
+										"type": "entries",
+										"entries": [
+											"Metallic dragons covet treasure as do their evil chromatic kin, but they aren't driven as much by greed in their pursuit of wealth. Rather, metallic dragons are driven to investigate and collect, taking unclaimed relics and storing them in their lairs. A metallic dragon's treasure hoard is filled with items that reflect its persona, tell its history, and preserve its memories. Metallic dragons also seek to protect other creatures from dangerous magic. As such, powerful magic items and even evil artifacts are sometimes secreted away in a metallic dragon's hoard.",
+											"A metallic dragon can be persuaded to part with an item in its hoard for the greater good. However, another creature's need for or right to the item is often unclear from the dragon's point of view. A metallic dragon must be bribed or otherwise convinced to part with the item."
+										]
+									},
+									{
+										"name": "Solitary Shapeshifters",
+										"type": "entries",
+										"entries": [
+											"At some point in their long lives, metallic dragons gain the magical ability to assume the forms of humanoids and beasts. When a dragon learns how to disguise itself, it might immerse itself in other cultures for a time. Some dragons are too shy or paranoid to stray far from their lairs and their treasure hoards, but bolder dragons love to wander city streets in humanoid form, taking in the local culture and cuisine, and amusing themselves by observing how the smaller races live.",
+											"Some metallic dragons prefer to stay as far away from civilization as possible so as to not attract enemies. However, this means that they are often far out of touch with current events."
+										]
+									},
+									{
+										"name": "The Persistence of Memory",
+										"type": "entries",
+										"entries": [
+											"Metallic dragons have long memories, and they form opinions of humanoids based on previous contact with related humanoids. Good dragons can recognize humanoid bloodlines by smell, sniffing out each person they meet and remembering any relatives they have come into contact with over the years. A gold dragon might never suspect duplicity from a cunning villain, assuming that the villain is of the same mind and heart as a good and virtuous grandmother. On the other hand, the dragon might resent a noble paladin whose ancestor stole a silver statue from the dragon's hoard three centuries before."
+										]
+									},
+									{
+										"name": "King of Good Dragons",
+										"type": "entries",
+										"entries": [
+											"The chief deity of the metallic dragons is Bahamut, the Platinum Dragon. He dwells in the Seven Heavens of Mount Celestia, but often wanders the Material Plane in the magical guise of a venerable human male in peasant robes. In this form, he is usually accompanied by seven golden canaries-actually seven ancient gold dragons in polymorphed form.",
+											"Bahamut seldom interferes in the affairs of mortal creatures, though he makes exceptions to help thwart the machinations of Tiamat the Dragon Queen and her evil brood. Good-aligned clerics and paladins sometimes worship Bahamut for his dedication to justice and protection. As a lesser god, he has the power to grant divine spells."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "section",
+						"name": "Dragons",
+						"entries": [
+							"True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.",
+							"Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.",
+							"Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.",
+							"True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.",
+							{
+								"type": "table",
+								"caption": "Dragon Age Categories",
+								"colLabels": [
+									"Category",
+									"Size",
+									"Age Range"
+								],
+								"colStyles": [
+									"col-4",
+									"col-4",
+									"col-4"
+								],
+								"rows": [
+									[
+										"Wyrmling",
+										"Medium",
+										"5 years or less"
+									],
+									[
+										"Young",
+										"Large",
+										"6–100 years"
+									],
+									[
+										"Adult",
+										"Huge",
+										"101–800 years"
+									],
+									[
+										"Ancient",
+										"Gargantuan",
+										"801 years or more"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Lair Actions",
+								"entries": [
+									"On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:",
+									{
+										"type": "list",
+										"items": [
+											"A strong wind blows around the dragon. Each creature within 60 feet of the dragon must succeed on a {@dc 15} Strength saving throw or be pushed 15 feet away from the dragon and knocked {@condition prone}. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames; such as lanterns, have a {@chance 50|50 percent} chance of being extinguished.",
+											"A cloud of sand swirls about in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners. Each creature in it must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Additional Lair Actions",
+										"entries": [
+											"At your discretion, a legendary ({@creature Adult Brass Dragon||adult} or {@creature Ancient Brass Dragon||ancient}) brass dragon can use one or more of the following additional lair actions while in its lair:",
+											{
+												"type": "list",
+												"style": "list-hang-notitle",
+												"items": [
+													{
+														"type": "item",
+														"name": "Animate Statues",
+														"entry": "The dragon chooses up to three statues in the lair that it can see. Each of these statues briefly animates and attacks one creature within 5 feet of it, with a +7 bonus to hit and dealing 10 ({@damage 3d6}) bludgeoning damage on a hit."
+													},
+													{
+														"type": "item",
+														"name": "Blast of Wind",
+														"entry": "A mighty wind sweeps through the lair in a direction of the dragon's choice, blowing along a line 40 feet wide and 100 feet long. Each creature in that area except the dragon must succeed on a DC 15 Strength saving throw or be pushed 15 feet in the wind's direction and be knocked {@condition prone}. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames, such as lanterns, have a {@chance 50|50 percent} chance of being extinguished. If the dragon is within the area of the wind, it can choose to be pushed 15 feet in the wind's direction, and the wind can't knock the dragon {@condition prone}."
+													},
+													{
+														"type": "item",
+														"name": "Obscuring Sand",
+														"entry": "Dust and sand fill the air within 120 feet of the dragon, making the area {@quickref Vision and Light|PHB|2||lightly obscured} until initiative count 20 on the next round."
+													}
+												]
+											}
+										],
+										"source": "FTD"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Regional Effects",
+								"entries": [
+									"The region containing a legendary brass dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+									{
+										"type": "list",
+										"items": [
+											"Tracks appear in the sand within 6 miles of the dragon's lair. The tracks lead to safe shelters and hidden water sources, while also leading away from areas that the dragon prefers to remain undisturbed.",
+											"Images of Large or smaller monsters haunt the desert sands within 1 mile of the dragon's lair. These illusions move and appear real, although they can do no harm. A creature that examines an image from a distance can tell it's an illusion with a successful {@dc 20} Intelligence ({@skill Investigation}) check. Any physical interaction with an image reveals it to be an illusion, because objects pass through it.",
+											"Whenever a creature with an Intelligence of 3 or higher comes within 30 feet of a water source within 1 mile of the dragon's lair, the dragon becomes aware of the creature's presence and location."
+										]
+									},
+									"If the dragon dies, the tracks fade in {@dice 1d10} days, but the other effects fade immediately.",
+									{
+										"type": "entries",
+										"name": "Additional Regional Effects",
+										"entries": [
+											"Any of these effects might appear in the area around a brass dragon's lair, in addition to or instead of the effects described in the {@i Monster Manual}:",
+											{
+												"type": "list",
+												"style": "list-hang-notitle",
+												"items": [
+													{
+														"type": "item",
+														"name": "Cloud Companion",
+														"entry": "A small, wispy cloud follows non-evil creatures as they journey within 6 miles of the dragon's lair. It changes direction as the creatures do, remaining interposed between them and the direct glare of the sun, and grants them advantage on saving throws to resist the effects of {@book extreme heat|DMG|5|Extreme Heat} (see the {@book Dungeon Master's Guide|DMG})."
+													},
+													{
+														"type": "item",
+														"name": "Talkative Denizens",
+														"entry": "Creatures within 1 mile of the dragon's lair find pleasure in hearing the sound of their own voices. The air is filled with a deafening chorus of birds and small animals, and sapient creatures talk extensively."
+													}
+												]
+											}
+										],
+										"source": "FTD"
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Brass Dragon.jpg"
+						}
+					}
+				]
+			},
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"resist": [
+				"cold",
+				"poison"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"P",
+				"S"
+			],
+			"damageTagsLegendary": [
+				"B"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"savingThrowForcedLegendary": [
+				"constitution",
+				"strength"
+			]
+		},
+		{
+			"name": "Ssendam, Lord of Madness",
+			"isNamedCreature": true,
+			"source": "CM-M",
+			"page": 105,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "50d20 + 350",
+				"average": 875
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 20,
+			"dex": 24,
+			"con": 24,
+			"int": 20,
+			"wis": 18,
+			"cha": 26,
+			"save": {
+				"con": "+14",
+				"dex": "+14",
+				"cha": "+15"
+			},
+			"skill": {
+				"arcana": "+12",
+				"deception": "+15",
+				"insight": "+18",
+				"intimidation": "+15",
+				"perception": "+11"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"truesight 120 ft."
+			],
+			"passive": 21,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder"
+			],
+			"immune": [
+				"necrotic",
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"cr": "23",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Ssendam's innate spellcasting ability is Charisma (spell save {@dc 22}, {@hit 14} to hit with spell attacks). Ssendam can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect evil and good}",
+						"{@spell detect magic}",
+						"{@spell detect thoughts}",
+						"{@spell dispel magic}",
+						"{@spell fear}",
+						"{@spell fly}",
+						"{@spell mass suggestion}",
+						"{@spell plane shift}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell power word heal}",
+							"{@spell power word pain|XGE}",
+							"{@spell power word stun}"
+						],
+						"2e": [
+							"{@spell finger of death}",
+							"{@spell flame strike}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Aura of Madness",
+					"entries": [
+						"Any creature (other than undead or constructs) that ends its turn within 10 feet of Ssendam must make a {@dc 20} Charisma saving throw or be inflicted with a random short-term madness. If a creature succeeds against any madness ability of Ssendam's, they are immune to Ssendam's madness for 1 hour."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Ssendam fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Ssendam has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Ssendam's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration (Golden Amoeba Form Only)",
+					"entries": [
+						"Ssendam regains 40 hit points at the start of her turn if she has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Ssendam can use her action to polymorph into a Small or Medium humanoid, into a Small aberration that looks like a golden amoeba, or back into this, her golden slaad form. Any equipment she is wearing or carrying isn't transformed. She reverts to her true form if she dies. Her statistics in the humanoid forms, other than her size, are the same.",
+						"While in her amoeba form, Ssendam has the same statistics with the following changes. She can't take any actions (except her Shapechanger action), speak, or manipulate objects. She has a movement speed of 40 feet and can enter a hostile creature's space and stop there. In addition, Ssendam can move through a space as narrow as 1 inch wide without squeezing. She has advantage on Strength and Dexterity saving throws, and has resistance to all damage except psychic and radiant."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Ssendam makes three attacks: one with her Touch of Madness and two with her chaos staff."
+					]
+				},
+				{
+					"name": "Chaos Staff",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage plus 16 ({@damage 3d10}) necrotic damage. The target must also make a {@dc 19} Constitution or be {@condition stunned}. The target may repeat the saving throw at the end of each of their turns."
+					]
+				},
+				{
+					"name": "Summon Slaadi (1/Day)",
+					"entries": [
+						"Ssendam summons {@dice 1d4 + 1} {@creature death slaad||death slaadi}. A summoned slaad appears in an unoccupied space within 60 feet of Ssendam, acts as an ally of Ssendam, and can't summon other slaadi. It remains for 1 minute, until it or Ssendam dies, or until Ssendam dismisses it as an action."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"Ssendam magically teleports, along with any equipment she is wearing or carrying, up to 120 feet to an unoccupied space she can see."
+					]
+				},
+				{
+					"name": "Touch of Madness",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) slashing damage plus 16 ({@damage 3d10}) necrotic damage. A target that fails a {@dc 20} Charisma saving throw is inflicted with a random short-term madness. If it is already mad, the existing madness is replaced with a random long-term madness."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Amoeba",
+					"entries": [
+						"When damaged, Ssendam can use her reaction to shapechange into her golden amoeba form and the damage is reduced to 0."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Chaos Staff",
+					"entries": [
+						"Ssendam makes one attack with her chaos staff."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"Ssendam uses her Teleport action."
+					]
+				},
+				{
+					"name": "Subversion (Costs 2 Actions)",
+					"entries": [
+						"Ssendam forces every creature suffering from madness within 60 feet of her to use their reaction to attack another creature within 5 feet of them."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Ssendam, Lord of Madness",
+				"source": "MaBJoV"
+			},
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Magic Weapons",
+				"Regeneration",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"B",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Teleport"
+			],
+			"languageTags": [
+				"XX",
+				"TP"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"frightened",
+				"stunned"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MaBJoV/Ssendam, Lord of Madness.png",
+			"fluff": {
+				"name": "Ssendam, Lord of Madness",
+				"source": "MaBJoV",
+				"entries": [
+					{
+						"type": "quote",
+						"entries": [
+							"The lord of insanity is a difficult subject to find accurate information on. Mainly because most that encounter the primal slaad are left either catatonic, incoherent or psychotic. Ssendam is one of the two known slaadi lords, the other being Ygorl, lord of entropy. There are rumors of other slaadi that may rival the power of Ssendam and Ygorl. Netherese texts refer to them as void slaad and chronal slaad."
+						],
+						"by": "Volo"
+					},
+					"Ssendam is the Slaad Lord of Madness. She was born in the ancient days, when Primus, Lord of the Modrons, came to Limbo to bring order to chaos with his Spawning Stone. A shard of the Spawning Stone broke off in the god's hand and worked its way into his divine body. The wound made him feverish and clouded his thoughts; this was the first instance of what is now known as the chaos phage or \"slaad fever\".",
+					"Not wanting to bring the illness to his home plane of Mechanus, Primus purged himself before leaving Limbo. Not only did he expel the shard, but all the chaos that had touched his body, in a pile of vile excrement. Through the power of the Spawning Stone, this excrement transformed itself into the first slaad—Ssendam.",
+					"Ssendam is not interested in the realm of Limbo. Her only desire is to spread sickness and madness. To this end she travels to different mortal worlds, bringing with her the chaos phage. She has two forms, that of a golden amoeba or alternatively that of a golden slaad. As an amoeba, Ssendam moves through the waters of a mortal world, looking for a perfect host. When she finds that host, she allows her target to consume her by drinking water or wine. She then infects her host's mind and slowly turns them toward madness. This madness leads to an obsession with the slaad, the chaos phage, and Limbo.",
+					"Eventually, the host will find a way to bring slaad into their world. When there are enough of her kind, Ssendam completes her corruption of the host and transforms into her golden slaad form, utterly consuming her unfortunate living vessel. Her only goal after this transformation is spread the chaos phage to all corners of the world she now inhabits.",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Lair Actions",
+								"entries": [
+									"On initiative count 20 (losing initiative ties), Ssendam can take one lair action to cause one of the following effects; Ssendam can't use the same effect two rounds in a row:",
+									{
+										"type": "list",
+										"items": [
+											"All creatures within 30 ft. of Ssendam must succeed on a DC 20 Wisdom saving throw or come under the effects of the {@spell confusion} spell until the end of its next turn.",
+											"Until the end of Ssendam's next turn, any creature that casts a spell within 60 ft. of Ssendam must roll on the sorcerer's wild surge table in the PHB."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Regional Effects",
+								"entries": [
+									"The region containing Ssendam's lair is corrupted by the chaos phage, which creates one or more of the following effects:",
+									{
+										"type": "list",
+										"items": [
+											"Within 1 mile of Ssendam's lair, there is a 1 in 20 chance that any creature that casts a spell must roll on the sorcerer's wild surge table in the PHB.",
+											"Within 10 miles of the lair, any creature that takes a long or short rest must succeed on a DC 20 Wisdom saving throw or be inflicted with a random shortterm madness."
+										]
+									},
+									"If Ssendam dies, the effects fade over the course of {@dice 1d10} days."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MaBJoV/Ssendam, Lord of Madness.webp"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"B",
+				"N",
+				"S"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"R"
+			],
+			"savingThrowForced": [
+				"charisma"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"savingThrowForcedLegendary": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Mummy",
+			"source": "CM-M",
+			"page": 1,
+			"basicRules": true,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 58,
+				"formula": "9d8 + 18"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 16,
+			"dex": 8,
+			"con": 15,
+			"int": 6,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"wis": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "3",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mummy can use its Dreadful Glare and makes one attack with its rotting fist, or two attacks with its rotting fist."
+					]
+				},
+				{
+					"name": "Rotting Fist",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage plus 10 ({@damage 3d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 11} Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the {@spell remove curse} spell or other magic."
+					]
+				},
+				{
+					"name": "Dreadful Glare",
+					"entries": [
+						"The mummy targets one creature it can see within 60 feet of it. If the target can see the mummy, it must succeed on a {@dc 11} Wisdom saving throw against this magic or become {@condition frightened} until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for the next 24 hours."
+					]
+				}
+			],
+			"environment": [
+				"desert"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/mummy.mp3"
+			},
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Mummy.png",
+			"fluff": {
+				"name": "Mummy",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Raised by dark funerary rituals, a mummy shambles from the shrouded stillness of a time-lost temple or tomb. Having been awoken from its rest, it punishes transgressors with the power of its unholy curse.",
+									{
+										"name": "Preserved Wrath",
+										"type": "entries",
+										"entries": [
+											"The long burial rituals that accompany a mummy's entombment help protect its body from rot. In the embalming process, the newly dead creature's organs are removed and placed in special jars, and its corpse is treated with preserving oils, herbs, and wrappings. After the body has been prepared, the corpse is typically wrapped in linen bandages."
+										]
+									},
+									{
+										"name": "The Will of Dark Gods",
+										"type": "entries",
+										"entries": [
+											"An undead mummy is created when the priest of a death god or other dark deity ritually imbues a prepared corpse with necromantic magic. The mummy's linen wrappings are inscribed with necromantic markings before the burial ritual concludes with an invocation to darkness. As a mummy endures in undeath, it animates in response to conditions specified by the ritual. Most commonly, a transgression against its tomb, treasures, lands, or former loved ones will cause a mummy to rise."
+										]
+									},
+									{
+										"name": "The Punished",
+										"type": "entries",
+										"entries": [
+											"Once deceased, an individual has no say in whether or not its body is made into a mummy. Some mummies were powerful individuals who displeased a high priest or pharaoh, or who committed crimes of treason, adultery, or murder. As punishment, they were cursed with eternal undeath, embalmed, mummified, and sealed away. Other times, mummies acting as tomb guardians are created from slaves put to death specifically to serve a greater purpose."
+										]
+									},
+									{
+										"name": "Creature of Ritual",
+										"type": "entries",
+										"entries": [
+											"A mummy obeys the conditions and parameters laid down by the rituals that created it, driven only to punish transgressors. The overwhelming terror that foreshadows a mummy's attack can leave the intended victim paralyzed with fright. In the days following a mummy's touch, a victim's body rots from the outside in, until nothing but dust remains."
+										]
+									},
+									{
+										"name": "Ending a Mummy's Curse",
+										"type": "entries",
+										"entries": [
+											"Rare magic can undo or dispel the ritual that gave rise to a mummy, allowing it to truly die. More commonly, a mummy can be sent back to its endless rest by undoing the transgression that caused it to rise. A sacred idol might be replaced in its niche, a stolen treasure could be returned to its tomb, or a temple might be purified of despoiling bloodshed.",
+											"More ephemeral or permanent offenses, such as revealing a secret the mummy wished kept or killing an individual the mummy loved, can't be so easily remedied. In such cases, a mummy might slaughter all the creatures responsible and still not sate its wrath."
+										]
+									},
+									{
+										"name": "Undead Archives",
+										"type": "entries",
+										"entries": [
+											"Though they seldom bother to do so, mummies can speak. As a result, some serve as undead repositories of lost lore, and can be consulted by the descendants of those who created them. Powerful individuals sometimes intentionally sequester mummies away for occasional consultation."
+										]
+									},
+									{
+										"name": "Undead Nature",
+										"type": "entries",
+										"entries": [
+											"A mummy doesn't require air, food, drink, or sleep."
+										]
+									}
+								]
+							},
+							{
+								"type": "insetReadaloud",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"Before opening a sarcophagus, light a torch."
+										],
+										"by": "X the Mystic's 7th rule of dungeon survival"
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Mummy.jpg"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Canopic Golem",
+			"source": "CM-M",
+			"page": 1,
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "15d10 + 75",
+				"average": 157
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 20,
+			"int": 7,
+			"wis": 11,
+			"cha": 1,
+			"save": {
+				"int": "+3",
+				"wis": "+5",
+				"cha": "+0"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Limited Spell Immunity",
+					"entries": [
+						"The golem automatically succeeds on saving throws against spells of 7th level or lower, and the attack rolls of such spells always miss it."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The golem doesn't require air, food, drink, or sleep."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The canopic golem is immune to any spell or effect that would alter its form."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The golem makes two attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}27 ({@damage 4d10 + 5}) force damage."
+					]
+				},
+				{
+					"name": "Crystal Dart",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 120 ft., one target. {@h}18 ({@damage 3d8 + 5}) force damage."
+					]
+				},
+				{
+					"name": "Whelm (Water)",
+					"entries": [
+						"Each creature within 10 feet that the canopic golem chooses must make a {@dc 17} Strength saving throw. On a failure, a target takes 13 ({@damage 2d8 + 5}) cold damage. If it is Large or smaller, it is also {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and at the start canopic golem's turns, each target takes 13 ({@damage 2d8 + 5}) cold damage.",
+						"If the saving throw is successful, the target takes half damage and is not {@condition grappled}."
+					]
+				},
+				{
+					"name": "Whirlwind (Air)",
+					"entries": [
+						"Each creature within 10 feet that the canopic golem chooses must make a {@dc 17} Strength saving throw. On a failure, a target takes 15 ({@damage 3d8 + 5}) bludgeoning damage and is flung up 20 feet away from the canopic golem in a random direction and knocked {@condition prone}. If a thrown target strikes an object, such as a wall or floor, the target takes ({@damage 2d6}) bludgeoning damage. If the target is thrown at another creature, that creature must succeed on a {@dc 13} Dexterity saving throw or take the same damage and be knocked {@condition prone}.",
+						"If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Enflame (Fire)",
+					"entries": [
+						"Each creature within 10 feet of the canopic golem must make a {@dc 17} Dexterity saving throw. On a failure, a target takes 27 ({@damage 5d8+5}) fire damage, or half as much on a success.",
+						"For the next minute, any creature that starts its turn within 10 feet of the canopic golem takes 6 ({@damage 1d12}) fire damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Spell Deflection",
+					"entries": [
+						"In response to a spell attack missing the golem, it causes that spell to hit another creature within 120 feet of it that it can see."
+					]
+				}
+			],
+			"traitTags": [
+				"Immutable Form",
+				"Unusual Nature"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"AOE"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/CM/Canopic Golem.png",
+			"fluff": {
+				"name": "Canopic Golem",
+				"source": "CM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"A mummy lord's organs, normally stored in sacred canopic jars during mummification, can be magically preserved and transplanted into living humanoids. The transplant recipients come under the control of the mummy lord, either as living supplicants or mindless golems through which the mummy lord can see and speak."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/CM/Canopic Golem.jpg"
+						}
+					}
+				]
+			},
+			"conditionInflict": [
+				"grappled",
+				"prone",
+				"restrained"
+			],
+			"attachedItems": [
+				"whelm|dmg"
+			],
+			"damageTags": [
+				"B",
+				"C",
+				"F",
+				"O"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"strength"
+			]
+		},
+		{
+			"name": "Barrowghast",
+			"source": "CM-M",
+			"page": 1,
+			"size": [
+				"H"
+			],
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"alignmentPrefix": "typically ",
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 138,
+				"formula": "12d12 + 60"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 21,
+			"dex": 8,
+			"con": 20,
+			"int": 5,
+			"wis": 9,
+			"cha": 6,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"Giant"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Stench",
+					"entries": [
+						"Any creature that starts its turn within 10 feet of the barrowghast must make a {@dc 16} Constitution saving throw. On a failed save, the creature has the {@condition poisoned} condition for 1 minute. While {@condition poisoned} this way, the creature can't regain hit points. The creature may repeat the saving throw at the end of each of their turns. On a successful save, the creature is immune to the Stench of all barrowghasts for 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The barrowghast makes two Slam attacks. It can replace one Slam attack with a Life Drain attack."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d12 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Life Drain",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one creature. {@h}9 ({@damage 1d8 + 5}) necrotic damage, and the target must succeed on a {@dc 16} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+						"A Humanoid slain by this attack immediately rises as a zombie (see the Monster Manual). The zombie acts as an ally of the barrowghast but isn't under its control."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Noxious Wound",
+					"entries": [
+						"Immediately after the barrowghast takes piercing or slashing damage, poisonous ichor sprays from the wound. Each creature within 10 feet of the barrowghast must make a {@dc 16} Dexterity saving throw, taking 14 ({@damage 4d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"HPR",
+				"AOE"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/BGG/Barrowghast.png",
+			"fluff": {
+				"name": "Barrowghast",
+				"source": "BGG",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"A hill giant who dies with an empty stomach, full of rage and regret, might become suffused with energy from the Negative Plane and rise as a barrowghast. Though it looks like little more than an animated corpse, a barrowghast is filled with necrotic energy and driven by spite and malice. Its blood is a thick and toxic ichor that gives the barrowghast a noxious stench.",
+							"Barrowghasts no longer hunger for physical food and instead crave life energy drained from living creatures. They often target former family members and allies, but they feast indiscriminately on any creatures they encounter. When barrowghasts drain Humanoids' life energy, those Humanoids rise as zombies."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/BGG/Barrowghast.webp"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"B",
+				"I",
+				"N"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity"
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Demonomicon",
+			"source": "CM-M",
+			"page": 1,
+			"rarity": "artifact",
+			"reqAttune": true,
+			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d8}",
+			"charges": 8,
+			"entries": [
+				"An expansive treatise documenting the Abyss's infinite layers and inhabitants, the Demonomicon of Iggwilv is the most thorough and blasphemous tome of demonology in the multiverse. The tome recounts both the oldest and most current profanities of the Abyss and demons. Demons have attempted to censor the text, and while sections have been ripped from the book's spine, the general chapters remain, ever revealing demonic secrets. And the book holds more than blasphemies. Caged behind lines of script roils a secret piece of the Abyss itself, which keeps the book up-to-date, no matter how many pages are removed, and it longs to be more than mere reference material.",
+				{
+					"type": "entries",
+					"name": "Enhanced Properties",
+					"entries": [
+						"The artifact has the following enhanced properties:",
+						{
+							"type": "list",
+							"items": [
+								"Your Charisma increases by 2, to a maximum of 24.",
+								"You gain a +1 bonus to Armor Class.",
+								"You have resistance to necrotic damage.",
+								"Undead are always hostile towards you."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Abyssal Reference",
+					"entries": [
+						"You can reference the {@i Demonomicon} whenever you make an Intelligence check to discern information about demons or a Wisdom ({@skill Survival}) check related to the Abyss. When you do so, you can add double your proficiency bonus to the check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Devilish Influence",
+					"entries": [
+						"The stories of devilish tricks in the Demonomicon have a bit of an influence on you. You have advantage on Charisma ({@skill Deception}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eldritch Incarnate",
+					"entries": [
+						"As a bonus action, you begin to channel additional power directly from your patron. For 1 minute, all attacks rolls you make can be done with advantage, and your spell save DC increases by 1. Once this property is used, it can't be used again until after a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fiendish Scourging",
+					"entries": [
+						"Your magic causes pain to fiends. While carrying the book, when you make a damage roll for a spell you cast against a fiend, you use the maximum possible result instead of rolling."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells",
+					"entries": [
+						"The book has 8 charges. It regains {@dice 1d8} expended charges daily at dawn. While holding it, you can use an action to cast {@spell Tasha's hideous laughter} from it or to expend 1 or more of its charges to cast one of the following spells (save DC 20) from it: {@spell magic circle} (1 charge), {@spell magic jar} (3 charges), {@spell planar ally} (3 charges), {@spell planar binding} (2 charges), {@spell plane shift} (to layers of the Abyss only; 3 charges), {@spell soul cage|XGE} (2 charges), {@spell summon fiend|TCE} (3 charges). You can increase the spell slot level by one for each additonal charge you spend."
+					]
+				}
+			],
+			"attachedSpells": [
+				"magic circle",
+				"magic jar",
+				"planar ally",
+				"planar binding",
+				"plane shift",
+				"summon fiend|tce",
+				"soul cage|xge",
+				"tasha's hideous laughter"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Orrery of the Wanderer",
+			"source": "CM-M",
+			"page": 1,
+			"rarity": "artifact",
+			"reqAttune": true,
+			"wondrous": true,
+			"bonusAc": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4 + 6}",
+			"charges": 7,
+			"entries": [
+				"This delicate and exquisitely crafted clockwork orrery features multiple geared components whose sweeping hands and dials represent the complex interplay of planar and magical realms. Standing two feet high, the orrery housing is a wondrous device imbued with magic of its own, but the power of its six clockwork components makes the artifact even more potent.",
+				"Enhanced Properties. The orrery has the following enhanced properties:",
+				{
+					"type": "list",
+					"items": [
+						"Your Intelligence increases by 2, to a maximum of 24.",
+						"You gain a +1 bonus to Armor Class.",
+						"You can't be charmed or frightened.",
+						"When you first receive this item, your Strength and Wisdom are reduced by 2."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Sum of Its Parts",
+					"entries": [
+						"Each of the six components that powers the Orrery of the Wanderer is a powerful magic relic in its own right:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								"The {@item chronolometer|AI}",
+								"The {@item dimensional loop|AI}",
+								"The {@item far gear|AI}",
+								"The {@item rotor of return|AI}",
+								"The {@item timepiece of travel|AI}",
+								"The {@item wheel of stars|AI}"
+							]
+						},
+						"Once all six components are installed, the orrery allows you to attune to one additional magical item."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Future Echoes",
+					"entries": [
+						"With or without its components, the orrery lets you catch momentary glimpses of the future that warn you of danger. As long as the orrery is within 30 feet of you, you gain a +1 bonus to AC and all saving throws.",
+						"Once all six components are installed, the echoes are empowered and you receive more clear premonitions of what's to come. These premonitions grant you one additional reaction."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Master of Time and Space",
+					"entries": [
+						"While all six components of the Orrery of the Wanderer are installed, the artifact has 7 charges. While touching the orrery, you can expend 1 or more charges to cast one of the following spells using your spell save DC: {@spell pulse wave|EGW} (1 charge), {@spell gravity sinkhole|EGW} (1 charge), {@spell temporal shunt|EGW} (2 charges), {@spell gravity fissure|EGW} (2 charges), {@spell dark star|EGW} (3 charges), {@spell time ravage|EGW} (4 charges), and {@spell ravenous void|EGW} (4 charges). You can increase the spell slot level by one for each additonal charge you spend. The orrery regains all expended charges daily at dawn."
+					]
+				}
+			],
+			"attachedSpells": [
+				"pulse wave",
+				"gravity sinkhole",
+				"temporal shunt",
+				"gravity fissure",
+				"dark star",
+				"time ravage",
+				"ravenous void"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Bigby's Beneficent Bracelet",
+			"source": "CM-M",
+			"page": 1,
+			"rarity": "artifact",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This gorgeous jewelry piece, crafted by the wizard Bigby himself, consists of four gold rings attached via delicate chains to a wrist cuff studded with sapphires and diamonds.",
+				{
+					"type": "entries",
+					"name": "Enhanced Properties",
+					"entries": [
+						"The bracelet has the following properties:",
+						{
+							"type": "list",
+							"items": [
+								"Your Charisma increases by 2, to a maximum of 24.",
+								"You have a +1 bonus to Armor Class.",
+								"You have resistance to force damage.",
+								"Any non-creature plant you touch instantly wilts."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unlocked Polymorph",
+					"entries": [
+						"Whenever you cast Polymorph on yourself, you are no longer restricted to just creatures from the Beast category. You may now also select creatures from the Celestial, Elemental, and Fiend categories.",
+						"Also, if you cast Polymorph on yourself, you may still benefit from and use class features and magical items."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Supreme Mockery",
+					"entries": [
+						"As an action, you can hurl a string of insults laced with enchantments at a creature you can see within 60 feet. If the creature can hear you (though it need not understand you), it must succeed on a Wisdom saving throw against your spell save DC or take a number of d12 equal to your level psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn. Once this property is used, it can't be used again until after a short rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Legendary Inspiration",
+					"entries": [
+						"When you or any creature rolls one of your Bardic Inspiration dice, you or the creature can roll the Bardic Inspiration die twice and choose which roll to use."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Helpful Hand",
+					"entries": [
+						"As an action, you can use the bracelet to cast {@spell Bigby's hand} as a 9th-level spell with your spell attack bonus. When you cast the spell this way, the spell doesn't require {@status concentration}. Once this property is used, it can't be used again until the next dawn."
+					]
+				}
+			],
+			"attachedSpells": [
+				"mage hand",
+				"Bigby's hand"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Helm of Perfect Potential",
+			"source": "CM-M",
+			"page": 1,
+			"rarity": "artifact",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This copper-hued helm contains a shard of the Elemental Chaos embedded in its forehead, surrounded by a motif of a rising sun. Legend says Annam fashioned this helm for his daughter Diancastra to hold the fragment of chaos she used to prove her worth to her father.",
+				{
+					"type": "entries",
+					"name": "Enhanced Properties",
+					"entries": [
+						"The helm has the following enhanced properties:",
+						{
+							"type": "list",
+							"items": [
+								"Your Dexterity increases by 2, to a maximum of 24.",
+								"You have a +1 bonus to attack and damage rolls, and your weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.",
+								"You gain a +1 bonus to Armor Class.",
+								"Your main flaw is amplified."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Perfection",
+					"entries": [
+						"You're able to draw out the latent potential of all your weapons to absolute perfection. Whenever you make a weapon attack, you may choose from one of the following properties to apply to your attack before you roll:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Slow} - On a successful weapon attack that deals damage, the target creature's speed is reduced by 10 feet until the start of your next turn. A creature's speed can only be reduced with this only once per turn.",
+								"{@b Push} - On a successful weapon attack, push the target creature up to 10 feet away from you if it is of size Large or smaller.",
+								"{@b Vex} - On a successful weapon attack that deals damage, you have advantage on your next attack roll against that creature before the end of your turn.",
+								"{@b Precise} - When you make a ranged weapon attack, the target creature does not receive the benefits from half or three-quarters cover for that attack.",
+								"{@b Sap} - On a successful weapon attack, the target creature has disadvantage on its next attack roll before the start of your next turn.",
+								"{@b Gash} - On a successful weapon attack that deals damage, the target must make a Dexterity saving throw equal to 8 + your proficiency bonus + your Dexterity modifer. If the fail, they will take {@dice 1d6} damage if they choose to move on their turn. This effect can stack."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weak Spot",
+					"entries": [
+						"Whenever you roll damage for Sneak Attack, you may roll it a second time and take whichever total."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Silver Tongue",
+					"entries": [
+						"You know the perfect words to say in every situation. You have advantage on Charisma ({@skill Persuasion}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arrow of Elemental Havoc",
+					"entries": [
+						"As a bonus action while wearing the helm, you can launch a bolt of searing elemental energy toward a creature you can see within 90 feet of yourself. The target must make a DC 20 Dexterity saving throw. On a failed save, the creature takes {@damage 4d6} acid, cold, fire, lightning, or thunder damage (your choice). On a successful save, the creature takes half as much damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting",
+					"entries": [
+						"The helm has 6 charges and regains {@dice 1d6} charges each dawn. As an action while wearing the helm, you can expend 1 or more of its charges to cast one of the following spells (save DC 20): {@spell elemental weapon} (1 charge), {@spell call lightning} (2 charges), {@spell wall of fire} (3 charges), {@spell conjure elemental} (4 charges), {@spell tsunami} (5 charges). You can increase the spell slot level by one for each additonal charge you spend."
+					]
+				}
+			],
+			"attachedSpells": [
+				"elemental weapon",
+				"call lightning",
+				"wall of fire",
+				"conjure elemental",
+				"tsunami"
+			],
+			"hasFluffImages": true
+		}
+	]
+}
