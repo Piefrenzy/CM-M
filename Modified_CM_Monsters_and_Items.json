@@ -2044,13 +2044,6 @@
 				},
 				{
 					"type": "entries",
-					"name": "Silver Tongue",
-					"entries": [
-						"You know the perfect words to say in every situation. You have advantage on Charisma ({@skill Persuasion}) checks."
-					]
-				},
-				{
-					"type": "entries",
 					"name": "Arrow of Elemental Havoc",
 					"entries": [
 						"As a bonus action while wearing the helm, you can launch a bolt of searing elemental energy toward a creature you can see within 90 feet of yourself. The target must make a DC 20 Dexterity saving throw. On a failed save, the creature takes {@damage 4d6} acid, cold, fire, lightning, or thunder damage (your choice). On a successful save, the creature takes half as much damage."
