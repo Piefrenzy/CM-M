@@ -5,11 +5,11 @@
 				"json": "CM-M",
 				"abbreviation": "CM-M",
 				"full": "Candlekeep Mysteries Modified",
-				"url": "",
+				"url": "https://raw.githubusercontent.com/Piefrenzy/CM-M/master/Modified_CM_Monsters_and_Items.json",
 				"authors": [
 					"Ben Dickinson"
 				],
-				"convertedBy": [],
+				"convertedBy": ["https://raw.githubusercontent.com/Piefrenzy/CM-M/master/Modified_CM_Monsters_and_Items.json"],
 				"color": "#00d1b9"
 			}
 		],
@@ -2044,6 +2044,13 @@
 				},
 				{
 					"type": "entries",
+					"name": "Silver Tongue",
+					"entries": [
+						"You know the perfect words to say in every situation. You have advantage on Charisma ({@skill Persuasion}) checks."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Arrow of Elemental Havoc",
 					"entries": [
 						"As a bonus action while wearing the helm, you can launch a bolt of searing elemental energy toward a creature you can see within 90 feet of yourself. The target must make a DC 20 Dexterity saving throw. On a failed save, the creature takes {@damage 4d6} acid, cold, fire, lightning, or thunder damage (your choice). On a successful save, the creature takes half as much damage."
@@ -2063,6 +2070,81 @@
 				"wall of fire",
 				"conjure elemental",
 				"tsunami"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Staff of the Elements",
+			"source": "CM-M",
+			"page": 1,
+			"srd": true,
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": "by a sorcerer, warlock, or wizard",
+			"reqAttuneTags": [
+				{
+					"class": "sorcerer"
+				},
+				{
+					"class": "warlock"
+				},
+				{
+					"class": "wizard"
+				}
+			],
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"bonusSpellAttack": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 2d8 + 4}",
+			"charges": 20,
+			"staff": true,
+			"entries": [
+				"You gain a +1 bonus to spell attack rolls and to the saving throw DCs of your spells.",
+				"The staff has 20 charges for the following properties. The staff regains {@dice 2d8 + 4} expended charges daily at dawn.",
+				{
+				  "type": "entries",
+				  "name": "Elemental Resistance",
+				  "entries": [
+				    "You have advantage on saving throws against spell and other magical effects."
+				  ]
+				},
+				{
+					"type": "entries",
+					"name": "Elemental Affinity",
+					"entries": [
+					  "You can choose one damage type when you finish a short or long rest. Spells you cast ignore resistance to damage of the chosen type."
+					]
+				  },
+				{
+					"type": "entries",
+					"name": "Spells",
+					"entries": [
+						"While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: {@spell magic missile} (1 charge), {@spell moonbeam} (2 charges), {@spell rime's binding ice|FTD} (2 charges), {@spell tasha's mind whip|TCE} (2 charges), {@spell fireball} (3 charges), {@spell thunder step|XGE} (3 charges) {@spell raulothim's psychic lance|FTD} (4 charges), {@spell cone of cold} (5 charges), {@spell dawn|XGE} (5 charges), {@spell steel wind strike|XGE} (5 charges), {@spell chain lightning} (6 charges), {@spell disintegrate} (6 charges), {@spell harm} (6 charges), or {@spell crown of stars|XGE} (7 charges). You can increase the spell slot level by one for each additional charge you expend."
+					]
+				}
+			],
+			"attachedSpells": [
+				"magic missile",
+				"moonbeam",
+				"rime's binding ice|FTD",
+				"tasha's mind whip|TCE",
+				"fireball",
+				"thunder step|XGE",
+				"raulothim's psychic lance|FTD",
+				"cone of cold",
+				"dawn|XGE",
+				"steel wind strike|xge",
+				"chain lightning",
+				"disintegrate",
+				"harm",
+				"crown of stars|XGE"
 			],
 			"hasFluffImages": true
 		}
