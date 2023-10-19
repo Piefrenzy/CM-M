@@ -2041,7 +2041,17 @@
 					"entries": [
 						"Whenever you roll damage for Sneak Attack, you may roll it a second time and take whichever total."
 					]
-				},
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Amulet of the Raven",
+			"source": "CM-M",
+			"page": 1,
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
 				{
 					"type": "entries",
 					"name": "Silver Tongue",
@@ -2074,7 +2084,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Staff of the Elements NEW",
+			"name": "Staff of the Elements",
 			"source": "CM-M",
 			"page": 1,
 			"srd": true,
