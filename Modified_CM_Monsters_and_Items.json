@@ -1790,7 +1790,6 @@
 			"source": "CM-M",
 			"page": 1,
 			"rarity": "artifact",
-			"reqAttune": true,
 			"wondrous": true,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d8}",
@@ -1818,13 +1817,6 @@
 					"name": "Abyssal Reference",
 					"entries": [
 						"You can reference the {@i Demonomicon} whenever you make an Intelligence check to discern information about demons or a Wisdom ({@skill Survival}) check related to the Abyss. When you do so, you can add double your proficiency bonus to the check."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Devilish Influence",
-					"entries": [
-						"The stories of devilish tricks in the Demonomicon have a bit of an influence on you. You have advantage on Charisma ({@skill Deception}) checks."
 					]
 				},
 				{
@@ -1858,6 +1850,38 @@
 				"summon fiend|tce",
 				"soul cage|xge",
 				"tasha's hideous laughter"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Amulet of the Warlock",
+			"source": "CM-M",
+			"page": 1,
+			"rarity": "legendary",
+			"wondrous": true,
+			"recharge": "dawn",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Devils Tricks",
+					"entries": [
+						"You have advantage on Charisma ({@skill Deception}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hellish Resistance",
+					"entries": [
+						"Choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Secrets",
+					"entries": [
+						"Whenever you cast a spell from one of your Mystic Arcanum, you can choose to not consume your arcanum spell slot. This feature recharges daily at dawn."
+					]
+				}
 			],
 			"hasFluffImages": true
 		},
@@ -1996,8 +2020,7 @@
 			"name": "Amulet of the Bard",
 			"source": "CM-M",
 			"page": 1,
-			"rarity": "artifact",
-			"reqAttune": true,
+			"rarity": "legendary",
 			"wondrous": true,
 			"entries": [
 				{
@@ -2080,7 +2103,7 @@
 					"type": "entries",
 					"name": "Silver Tongue",
 					"entries": [
-						"You know the perfect words to say in every situation. You have advantage on Charisma ({@skill Persuasion}) checks."
+						"You have advantage on Charisma ({@skill Persuasion}) checks."
 					]
 				},
 				{
@@ -2113,19 +2136,7 @@
 			"page": 1,
 			"srd": true,
 			"tier": "major",
-			"rarity": "very rare",
-			"reqAttune": "by a sorcerer, warlock, or wizard",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				},
-				{
-					"class": "warlock"
-				},
-				{
-					"class": "wizard"
-				}
-			],
+			"rarity": "legendary",
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
