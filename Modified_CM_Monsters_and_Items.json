@@ -1993,6 +1993,31 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Amulet of the Bard",
+			"source": "CM-M",
+			"page": 1,
+			"rarity": "artifact",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Supreme Mockery",
+					"entries": [
+						"As an action, you can hurl a string of insults laced with enchantments at a creature you can see within 60 feet. If the creature can hear you (though it need not understand you), it must succeed on a Wisdom saving throw against your spell save DC or take a number of d12 equal to your level psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn. Once this property is used, it can't be used again until after a short rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Legendary Inspiration",
+					"entries": [
+						"When you or any creature rolls one of your Bardic Inspiration dice, you or the creature can roll the Bardic Inspiration die twice and choose which roll to use."
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
 			"name": "Helm of Perfect Potential",
 			"source": "CM-M",
 			"page": 1,
@@ -2021,16 +2046,15 @@
 					"type": "entries",
 					"name": "Weapon Perfection",
 					"entries": [
-						"You're able to draw out the latent potential of all your weapons to absolute perfection. Whenever you make a weapon attack, you may choose from one of the following properties to apply to your attack before you roll:",
+						"You're able to draw out the latent potential of all your weapons to absolute perfection. When you roll to hit, choose from one of the following properties. If you make a successful weapon attack, you may apply your chosen effect.",
 						{
 							"type": "list",
 							"items": [
-								"{@b Slow} - On a successful weapon attack that deals damage, the target creature's speed is reduced by 10 feet until the start of your next turn. A creature's speed can only be reduced with this only once per turn.",
-								"{@b Push} - On a successful weapon attack, push the target creature up to 10 feet away from you if it is of size Large or smaller.",
-								"{@b Vex} - On a successful weapon attack that deals damage, you have advantage on your next attack roll against that creature before the end of your turn.",
-								"{@b Precise} - When you make a ranged weapon attack, the target creature does not receive the benefits from half or three-quarters cover for that attack.",
-								"{@b Sap} - On a successful weapon attack, the target creature has disadvantage on its next attack roll before the start of your next turn.",
-								"{@b Gash} - On a successful weapon attack that deals damage, the target must make a Dexterity saving throw equal to 8 + your proficiency bonus + your Dexterity modifer. If the fail, they will take {@dice 1d6} damage if they choose to move on their turn. This effect can stack."
+								"{@b Slow} - The target creature's speed is reduced by 10 feet until the start of your next turn. A creature's speed can only be reduced with this only once per turn.",
+								"{@b Push} - Push the target creature up to 10 feet away from you if it is of size Large or smaller.",
+								"{@b Vex} - You have advantage on your next attack roll against that creature before the end of your turn.",
+								"{@b Sap} - The target creature has disadvantage on its next attack roll before the start of your next turn.",
+								"{@b Gash} - The target must make a Dexterity saving throw equal to 8 + your proficiency bonus + your Dexterity modifer. If the fail, they will take {@dice 1d6} damage if they choose to move on their turn. This effect can stack."
 							]
 						}
 					]
