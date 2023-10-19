@@ -1990,20 +1990,6 @@
 				},
 				{
 					"type": "entries",
-					"name": "Supreme Mockery",
-					"entries": [
-						"As an action, you can hurl a string of insults laced with enchantments at a creature you can see within 60 feet. If the creature can hear you (though it need not understand you), it must succeed on a Wisdom saving throw against your spell save DC or take a number of d12 equal to your level psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn. Once this property is used, it can't be used again until after a short rest."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Legendary Inspiration",
-					"entries": [
-						"When you or any creature rolls one of your Bardic Inspiration dice, you or the creature can roll the Bardic Inspiration die twice and choose which roll to use."
-					]
-				},
-				{
-					"type": "entries",
 					"name": "Helpful Hand",
 					"entries": [
 						"As an action, you can use the bracelet to cast {@spell Bigby's hand} as a 9th-level spell with your spell attack bonus. When you cast the spell this way, the spell doesn't require {@status concentration}. Once this property is used, it can't be used again until the next dawn."
