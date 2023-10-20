@@ -1821,9 +1821,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Eldritch Incarnate",
+					"name": "Devils Tricks",
 					"entries": [
-						"As a bonus action, you begin to channel additional power directly from your patron. For 1 minute, all attacks rolls you make can be done with advantage, and your spell save DC increases by 1. Once this property is used, it can't be used again until after a long rest."
+						"You have advantage on Charisma ({@skill Deception}) checks."
 					]
 				},
 				{
@@ -1863,16 +1863,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Devils Tricks",
+					"name": "Eldritch Incarnate",
 					"entries": [
-						"You have advantage on Charisma ({@skill Deception}) checks."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Hellish Resistance",
-					"entries": [
-						"Choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature."
+						"As a bonus action, you begin to channel additional power directly from your patron. For 1 minute, all attacks rolls you make can be done with advantage, and your spell save DC increases by 1. Once this property is used, it can't be used again until after a long rest."
 					]
 				},
 				{
@@ -1971,9 +1964,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Battle Intellect",
+					"name": "Tactician",
 					"entries": [
-						"You can give yourself a bonus to your initiative rolls equal to your Intelligence modifier."
+						"You can add you Intelligence modifier to your initiative rolls."
 					]
 				}
 			],
@@ -2109,13 +2102,6 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Silver Tongue",
-					"entries": [
-						"You have advantage on Charisma ({@skill Persuasion}) checks."
-					]
-				},
-				{
-					"type": "entries",
 					"name": "Arrow of Elemental Havoc",
 					"entries": [
 						"As a bonus action while wearing the helm, you can launch a bolt of searing elemental energy toward a creature you can see within 90 feet of yourself. The target must make a DC 20 Dexterity saving throw. On a failed save, the creature takes {@damage 4d6} acid, cold, fire, lightning, or thunder damage (your choice). On a successful save, the creature takes half as much damage."
@@ -2125,7 +2111,7 @@
 					"type": "entries",
 					"name": "Spellcasting",
 					"entries": [
-						"The helm has 6 charges and regains {@dice 1d6} charges each dawn. As an action while wearing the helm, you can expend 1 or more of its charges to cast one of the following spells (save DC 20): {@spell elemental weapon} (1 charge), {@spell call lightning} (2 charges), {@spell wall of fire} (3 charges), {@spell conjure elemental} (4 charges), {@spell tsunami} (5 charges). You can increase the spell slot level by one for each additonal charge you spend."
+						"The helm has 9 charges and regains all charges each dawn. As an action while wearing the helm, you can expend 1 or more of its charges to cast one of the following spells (save DC 20): {@spell elemental weapon} (1 charge), {@spell call lightning} (2 charges), {@spell wall of fire} (3 charges), {@spell conjure elemental} (4 charges), {@spell tsunami} (5 charges), {@spell sunburst} (5 charges), or {@spell meteor swarm} (9 charges). You can increase the spell slot level by one for each additonal charge you spend."
 					]
 				}
 			],
@@ -2134,7 +2120,9 @@
 				"call lightning",
 				"wall of fire",
 				"conjure elemental",
-				"tsunami"
+				"tsunami",
+				"sunburst",
+				"meteor swarm"
 			],
 			"hasFluffImages": true
 		},
