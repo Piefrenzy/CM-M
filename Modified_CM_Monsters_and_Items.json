@@ -1879,7 +1879,7 @@
 					"type": "entries",
 					"name": "Arcane Secrets",
 					"entries": [
-						"Whenever you cast a spell from one of your Mystic Arcanum, you can choose to not consume your arcanum spell slot. This feature recharges daily at dawn."
+						"Once per day, whenever you cast a spell from one of your Mystic Arcanum, you can choose to not consume your arcanum spell slot. This feature recharges daily at dawn."
 					]
 				}
 			],
@@ -1890,7 +1890,6 @@
 			"source": "CM-M",
 			"page": 1,
 			"rarity": "artifact",
-			"reqAttune": true,
 			"wondrous": true,
 			"bonusAc": "+1",
 			"recharge": "dawn",
@@ -1956,11 +1955,35 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Amulet of the Artificer",
+			"source": "CM-M",
+			"page": 1,
+			"rarity": "legendary",
+			"wondrous": true,
+			"recharge": "dawn",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Upgraded Cannons",
+					"entries": [
+						"Your cannons now use a d10 instead of a d8."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Battle Intellect",
+					"entries": [
+						"You can give yourself a bonus to your initiative rolls equal to your Intelligence modifier."
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
 			"name": "Bigby's Beneficent Bracelet",
 			"source": "CM-M",
 			"page": 1,
 			"rarity": "artifact",
-			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
 				"This gorgeous jewelry piece, crafted by the wizard Bigby himself, consists of four gold rings attached via delicate chains to a wrist cuff studded with sapphires and diamonds.",
@@ -2031,7 +2054,6 @@
 			"source": "CM-M",
 			"page": 1,
 			"rarity": "artifact",
-			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
 				"This copper-hued helm contains a shard of the Elemental Chaos embedded in its forehead, surrounded by a motif of a rising sun. Legend says Annam fashioned this helm for his daughter Diancastra to hold the fragment of chaos she used to prove her worth to her father.",
