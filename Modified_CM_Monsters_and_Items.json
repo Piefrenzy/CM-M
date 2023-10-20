@@ -1998,6 +1998,13 @@
 				},
 				{
 					"type": "entries",
+					"name": "Supreme Mockery",
+					"entries": [
+						"As an action, you can hurl a string of insults laced with enchantments at a creature you can see within 60 feet. If the creature can hear you (though it need not understand you), it must succeed on a Wisdom saving throw against your spell save DC or take a number of d12 equal to your level psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn. Once this property is used, it can't be used again until after a short rest."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Unlocked Polymorph",
 					"entries": [
 						"Whenever you cast Polymorph on yourself, you are no longer restricted to just creatures from the Beast category. You may now also select creatures from the Celestial, Elemental, and Fiend categories.",
@@ -2027,9 +2034,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Supreme Mockery",
+					"name": "Powerful Inspiration",
 					"entries": [
-						"As an action, you can hurl a string of insults laced with enchantments at a creature you can see within 60 feet. If the creature can hear you (though it need not understand you), it must succeed on a Wisdom saving throw against your spell save DC or take a number of d12 equal to your level psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn. Once this property is used, it can't be used again until after a short rest."
+						"If you or another creature rolls a 1 on your Bardic Inspiration dice, you may reroll that die."
 					]
 				},
 				{
