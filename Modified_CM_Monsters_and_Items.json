@@ -2295,6 +2295,13 @@
 				},
 				{
 					"type": "entries",
+					"name": "Eldritch Incarnate",
+					"entries": [
+						"As a bonus action, you begin to channel additional power directly from your patron. For 1 minute, all attacks rolls you make can be done with advantage, and your spell save DC increases by 1. Once this property is used, it can't be used again until after a long rest."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Fiendish Scourging",
 					"entries": [
 						"Your magic causes pain to fiends. While carrying the book, when you make a damage roll for a spell you cast against a fiend, you use the maximum possible result instead of rolling."
@@ -2330,9 +2337,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Eldritch Incarnate",
+					"name": "Descent to Avernus",
 					"entries": [
-						"As a bonus action, you begin to channel additional power directly from your patron. For 1 minute, all attacks rolls you make can be done with advantage, and your spell save DC increases by 1. Once this property is used, it can't be used again until after a long rest."
+						"You may use your Hurl Through Hell feature twice per long rest instead of once."
 					]
 				},
 				{
@@ -2473,6 +2480,13 @@
 				},
 				{
 					"type": "entries",
+					"name": "Supreme Mockery",
+					"entries": [
+						"As an action, you can hurl a string of insults laced with enchantments at a creature you can see within 60 feet. If the creature can hear you (though it need not understand you), it must succeed on a Wisdom saving throw against your spell save DC or take a number of d12 equal to your level psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn. Once this property is used, it can't be used again until after a short rest."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Helpful Hand",
 					"entries": [
 						"As an action, you can use the bracelet to cast {@spell Bigby's hand} as a 9th-level spell with your spell attack bonus. When you cast the spell this way, the spell doesn't require {@status concentration}. Once this property is used, it can't be used again until the next dawn."
@@ -2494,9 +2508,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Supreme Mockery",
+					"name": "Powerful Inspiration",
 					"entries": [
-						"As an action, you can hurl a string of insults laced with enchantments at a creature you can see within 60 feet. If the creature can hear you (though it need not understand you), it must succeed on a Wisdom saving throw against your spell save DC or take a number of d12 equal to your level psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn. Once this property is used, it can't be used again until after a short rest."
+						"If you or another creature rolls a 1 on your Bardic Inspiration dice, you may reroll that die."
 					]
 				},
 				{
