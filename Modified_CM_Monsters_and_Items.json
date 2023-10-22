@@ -2288,13 +2288,6 @@
 				},
 				{
 					"type": "entries",
-					"name": "Devils Tricks",
-					"entries": [
-						"You have advantage on Charisma ({@skill Deception}) checks."
-					]
-				},
-				{
-					"type": "entries",
 					"name": "Eldritch Incarnate",
 					"entries": [
 						"As a bonus action, you begin to channel additional power directly from your patron. For 1 minute, all attacks rolls you make can be done with advantage, and your spell save DC increases by 1. Once this property is used, it can't be used again until after a long rest."
@@ -2337,9 +2330,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Descent to Avernus",
+					"name": "Fiendish Resistance",
 					"entries": [
-						"You may use your Hurl Through Hell feature twice per long rest instead of once."
+						"You can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature."
 					]
 				},
 				{
