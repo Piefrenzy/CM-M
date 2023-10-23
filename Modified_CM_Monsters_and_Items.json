@@ -2330,9 +2330,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Fiendish Resistance",
+					"name": "Eldritch Drain",
 					"entries": [
-						"You can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature."
+						"When you score a critical hit with your eldritch blast cantrip, pick a creature you can see within 30 feet of you. You and the chosen creature can immediately expend a Hit Die to regain hit points."
 					]
 				},
 				{
