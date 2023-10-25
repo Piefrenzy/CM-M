@@ -40,20 +40,20 @@
 				}
 			],
 			"hp": {
-				"formula": "36d8 + 144",
-				"average": 306
+				"formula": "40d8 + 120",
+				"average": 300
 			},
 			"speed": {
 				"walk": 20
 			},
 			"str": 20,
 			"dex": 10,
-			"con": 18,
+			"con": 16,
 			"int": 11,
 			"wis": 20,
 			"cha": 16,
 			"save": {
-				"con": "+9",
+				"con": "+8",
 				"int": "+5",
 				"wis": "+10",
 				"cha": "+8"
@@ -138,7 +138,8 @@
 						},
 						"6": {
 							"spells": [
-								"{@spell harm}"
+								"{@spell harm}",
+								"{@spell circle of death}"
 							],
 							"slots": 1
 						}
@@ -2258,7 +2259,7 @@
 			"page": 1,
 			"rarity": "artifact",
 			"wondrous": true,
-			"recharge": "dawn",
+			"recharge": "midnight",
 			"rechargeAmount": "{@dice 1d8}",
 			"charges": 8,
 			"entries": [
@@ -2304,7 +2305,7 @@
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"The book has 8 charges. It regains {@dice 1d8} expended charges daily at dawn. While holding it, you can use an action to cast {@spell Tasha's hideous laughter} from it or to expend 1 or more of its charges to cast one of the following spells (save DC 20) from it: {@spell magic circle} (1 charge), {@spell magic jar} (3 charges), {@spell planar ally} (3 charges), {@spell planar binding} (2 charges), {@spell plane shift} (to layers of the Abyss only; 3 charges), {@spell soul cage|XGE} (2 charges), {@spell summon fiend|TCE} (3 charges). You can increase the spell slot level by one for each additonal charge you spend."
+						"The book has 8 charges and regains all expended charges daily at midnight. While holding it, you can use an action to cast {@spell Tasha's hideous laughter} from it or to expend 1 or more of its charges to cast one of the following spells (save DC 20) from it: {@spell magic circle} (1 charge), {@spell magic jar} (3 charges), {@spell planar ally} (3 charges), {@spell planar binding} (2 charges), {@spell plane shift} (to layers of the Abyss only; 3 charges), {@spell soul cage|XGE} (2 charges), {@spell summon fiend|TCE} (3 charges). You can increase the spell slot level by one for each additonal charge you spend."
 					]
 				}
 			],
@@ -2399,7 +2400,7 @@
 					"type": "entries",
 					"name": "Master of Time and Space",
 					"entries": [
-						"While all six components of the Orrery of the Wanderer are installed, the artifact has 15 charges. While touching the orrery, you can expend 1 or more charges to cast one of the following spells using your spell save DC: {@spell pulse wave|EGW} (1 charge), {@spell gravity sinkhole|EGW} (2 charge), {@spell temporal shunt|EGW} (3 charges), {@spell gravity fissure|EGW} (3 charges), {@spell dark star|EGW} (4 charges), {@spell reality break|EGW} (4 charges), {@spell time ravage|EGW} (5 charges), and {@spell ravenous void|EGW} (5 charges). You can increase the spell slot level by one for each additonal charge you spend. The orrery regains all expended charges daily at dawn."
+						"While all six components of the Orrery of the Wanderer are installed, the artifact has 9 charges. While touching the orrery, you can expend 1 or more charges to cast one of the following spells using your spell save DC: {@spell pulse wave|EGW} (1 charge), {@spell gravity sinkhole|EGW} (2 charge), {@spell temporal shunt|EGW} (3 charges), {@spell gravity fissure|EGW} (3 charges), {@spell dark star|EGW} (4 charges), {@spell reality break|EGW} (4 charges), {@spell time ravage|EGW} (5 charges), and {@spell ravenous void|EGW} (5 charges). You can increase the spell slot level by one for each additonal charge you spend. The orrery regains all expended charges daily at dawn."
 					]
 				}
 			],
@@ -2474,9 +2475,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Legendary Inspiration",
+					"name": "Unfailing Inspiration",
 					"entries": [
-						"When you or any creature rolls one of your Bardic Inspiration dice, you or the creature can roll the Bardic Inspiration die twice and choose which roll to use."
+						"When you or any creature rolls one of your Bardic Inspiration dice, if the outcome of the roll is not changed by the Bardic Inspiration die, you or the creature may keep the Bardic Inspiration die."
 					]
 				},
 				{
@@ -2503,7 +2504,7 @@
 					"type": "entries",
 					"name": "Powerful Inspiration",
 					"entries": [
-						"If you or another creature rolls a 1 on your Bardic Inspiration dice, you may reroll that die."
+						"If you or another creature rolls a 1 on your Bardic Inspiration dice, that die may be rerolled."
 					]
 				},
 				{
@@ -2524,7 +2525,7 @@
 			"rarity": "artifact",
 			"wondrous": true,
 			"entries": [
-				"This copper-hued helm contains a shard of the Elemental Chaos embedded in its forehead, surrounded by a motif of a rising sun. Legend says Annam fashioned this helm for his daughter Diancastra to hold the fragment of chaos she used to prove her worth to her father.",
+				"This copper-hued helm contains a shard of the Elemental Chaos embedded in its forehead, surrounded by a motif of a rising sun.",
 				{
 					"type": "entries",
 					"name": "Enhanced Properties",
@@ -2545,7 +2546,7 @@
 					"type": "entries",
 					"name": "Weapon Perfection",
 					"entries": [
-						"You're able to draw out the latent potential of all your weapons to absolute perfection. When you roll to hit, choose from one of the following properties. If you make a successful weapon attack, you may apply your chosen effect.",
+						"With the helm, you're able to envision new ways to perfectly use your weapons. When you roll to hit, choose from one of the following properties. If you make a successful weapon attack, you may apply your chosen effect.",
 						{
 							"type": "list",
 							"items": [
@@ -2567,9 +2568,16 @@
 				},
 				{
 					"type": "entries",
+					"name": "Altered Appearance",
+					"entries": [
+						"While wearing the helm, you can tap it twice to gain the effects of the {@spell disguise self} spell on it, and to make it take the form of any hat or helm you can envision."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Spellcasting",
 					"entries": [
-						"The helm has 9 charges and regains all charges each dawn. As an action while wearing the helm, you can expend 1 or more of its charges to cast one of the following spells (save DC 20): {@spell elemental weapon} (1 charge), {@spell call lightning} (2 charges), {@spell wall of fire} (3 charges), {@spell conjure elemental} (4 charges), {@spell tsunami} (5 charges), {@spell sunburst} (5 charges), or {@spell meteor swarm} (9 charges). You can increase the spell slot level by one for each additonal charge you spend."
+						"The helm has 7 charges and regains all charges each dawn. As an action while wearing the helm, you can expend 1 or more of its charges to cast one of the following spells (save DC 20): {@spell elemental weapon} (1 charge), {@spell call lightning} (2 charges), {@spell wall of fire} (3 charges), {@spell conjure elemental} (4 charges), {@spell wall of ice} (4 charges), {@spell tsunami} (5 charges), or {@spell sunburst} (5 charges). You can increase the spell slot level by one for each additonal charge you spend."
 					]
 				}
 			],
@@ -2578,9 +2586,9 @@
 				"call lightning",
 				"wall of fire",
 				"conjure elemental",
+				"wall of ice",
 				"tsunami",
-				"sunburst",
-				"meteor swarm"
+				"sunburst"
 			],
 			"hasFluffImages": true
 		},
