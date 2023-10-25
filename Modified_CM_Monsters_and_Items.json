@@ -2399,7 +2399,7 @@
 					"type": "entries",
 					"name": "Master of Time and Space",
 					"entries": [
-						"While all six components of the Orrery of the Wanderer are installed, the artifact has 7 charges. While touching the orrery, you can expend 1 or more charges to cast one of the following spells using your spell save DC: {@spell pulse wave|EGW} (1 charge), {@spell gravity sinkhole|EGW} (1 charge), {@spell temporal shunt|EGW} (2 charges), {@spell gravity fissure|EGW} (2 charges), {@spell dark star|EGW} (3 charges), {@spell time ravage|EGW} (4 charges), and {@spell ravenous void|EGW} (4 charges). You can increase the spell slot level by one for each additonal charge you spend. The orrery regains all expended charges daily at dawn."
+						"While all six components of the Orrery of the Wanderer are installed, the artifact has 15 charges. While touching the orrery, you can expend 1 or more charges to cast one of the following spells using your spell save DC: {@spell pulse wave|EGW} (1 charge), {@spell gravity sinkhole|EGW} (2 charge), {@spell temporal shunt|EGW} (3 charges), {@spell gravity fissure|EGW} (3 charges), {@spell dark star|EGW} (4 charges), {@spell reality break|EGW} (4 charges), {@spell time ravage|EGW} (5 charges), and {@spell ravenous void|EGW} (5 charges). You can increase the spell slot level by one for each additonal charge you spend. The orrery regains all expended charges daily at dawn."
 					]
 				}
 			],
@@ -2409,6 +2409,7 @@
 				"temporal shunt",
 				"gravity fissure",
 				"dark star",
+				"reality break",
 				"time ravage",
 				"ravenous void"
 			],
@@ -2424,9 +2425,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Upgraded Cannons",
+					"name": "Sized Spells",
 					"entries": [
-						"Your cannons now use a d10 instead of a d8."
+						"You can change the size of the effects from your spells and cannons, increasing or decreasing the overall dimensions by up to 10 feet."
 					]
 				},
 				{
@@ -2458,7 +2459,7 @@
 								"Your Charisma increases by 2, to a maximum of 24.",
 								"You have a +1 bonus to Armor Class.",
 								"You have resistance to force damage.",
-								"Any non-creature plant you touch instantly wilts."
+								"This bracelet is constantly emitting a bright light. You have disadvantage on {@skill Stealth} checks."
 							]
 						}
 					]
@@ -2473,9 +2474,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Supreme Mockery",
+					"name": "Legendary Inspiration",
 					"entries": [
-						"As an action, you can hurl a string of insults laced with enchantments at a creature you can see within 60 feet. If the creature can hear you (though it need not understand you), it must succeed on a Wisdom saving throw against your spell save DC or take a number of d12 equal to your level psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn. Once this property is used, it can't be used again until after a short rest."
+						"When you or any creature rolls one of your Bardic Inspiration dice, you or the creature can roll the Bardic Inspiration die twice and choose which roll to use."
 					]
 				},
 				{
@@ -2487,7 +2488,6 @@
 				}
 			],
 			"attachedSpells": [
-				"mage hand",
 				"Bigby's hand"
 			],
 			"hasFluffImages": true
@@ -2508,11 +2508,12 @@
 				},
 				{
 					"type": "entries",
-					"name": "Legendary Inspiration",
+					"name": "Supreme Mockery",
 					"entries": [
-						"When you or any creature rolls one of your Bardic Inspiration dice, you or the creature can roll the Bardic Inspiration die twice and choose which roll to use."
+						"As an action, you can hurl a string of insults laced with enchantments at a creature you can see within 60 feet. If the creature can hear you (though it need not understand you), it must succeed on a Wisdom saving throw against your spell save DC or take a number of d12 equal to your level psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn. Once this property is used, it can't be used again until after a short rest."
 					]
 				}
+
 			],
 			"hasFluffImages": true
 		},
@@ -2559,30 +2560,6 @@
 				},
 				{
 					"type": "entries",
-					"name": "Arrow of Elemental Havoc",
-					"entries": [
-						"As a bonus action while wearing the helm, you can launch a bolt of searing elemental energy toward a creature you can see within 90 feet of yourself. The target must make a DC 20 Dexterity saving throw. On a failed save, the creature takes {@damage 4d6} acid, cold, fire, lightning, or thunder damage (your choice). On a successful save, the creature takes half as much damage."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting",
-					"entries": [
-						"The helm has 9 charges and regains all charges each dawn. As an action while wearing the helm, you can expend 1 or more of its charges to cast one of the following spells (save DC 20): {@spell elemental weapon} (1 charge), {@spell call lightning} (2 charges), {@spell wall of fire} (3 charges), {@spell conjure elemental} (4 charges), {@spell tsunami} (5 charges), {@spell sunburst} (5 charges), or {@spell meteor swarm} (9 charges). You can increase the spell slot level by one for each additonal charge you spend."
-					]
-				}
-			],
-			"hasFluffImages": true
-		},
-		{
-			"name": "Amulet of the Raven",
-			"source": "CM-M",
-			"page": 1,
-			"rarity": "legendary",
-			"wondrous": true,
-			"entries": [
-				{
-					"type": "entries",
 					"name": "Weak Spot",
 					"entries": [
 						"Whenever you roll damage for Sneak Attack, you may roll it a second time and take whichever total."
@@ -2590,9 +2567,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Supreme Sneak",
+					"name": "Spellcasting",
 					"entries": [
-						"Your sneak attack now uses a d8 instead of a d6."
+						"The helm has 9 charges and regains all charges each dawn. As an action while wearing the helm, you can expend 1 or more of its charges to cast one of the following spells (save DC 20): {@spell elemental weapon} (1 charge), {@spell call lightning} (2 charges), {@spell wall of fire} (3 charges), {@spell conjure elemental} (4 charges), {@spell tsunami} (5 charges), {@spell sunburst} (5 charges), or {@spell meteor swarm} (9 charges). You can increase the spell slot level by one for each additonal charge you spend."
 					]
 				}
 			],
@@ -2604,6 +2581,30 @@
 				"tsunami",
 				"sunburst",
 				"meteor swarm"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Amulet of the Bargue",
+			"source": "CM-M",
+			"page": 1,
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Eye of Onos",
+					"entries": [
+						"As a bonus action, you can launch a bolt of searing elemental energy toward a creature you can see within 90 feet of yourself. The target must make a DC 20 Dexterity saving throw. On a failed save, the creature takes {@damage 5d6} acid, cold, fire, lightning, or thunder damage (your choice). On a successful save, the creature takes half as much damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "War Magic",
+					"entries": [
+						"Whenever you take the attack action, you can replace four of the attacks with casting a spell that has the casting time of an action."
+					]
+				}
 			],
 			"hasFluffImages": true
 		},
