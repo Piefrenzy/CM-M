@@ -2393,7 +2393,7 @@
 					"name": "Future Echoes",
 					"entries": [
 						"With or without its components, the orrery lets you catch momentary glimpses of the future that warn you of danger. As long as the orrery is within 30 feet of you, you gain a +1 bonus to AC and all saving throws.",
-						"Once all six components are installed, the echoes are empowered and you receive more clear premonitions of what's to come. These premonitions grant you one additional reaction."
+						"Once all six components are installed, the echoes are empowered and you receive more clear premonitions of what's to come. These premonitions grant you one additional reaction. They also allow you to add your Intelligence modifier to your initiative rolls."
 					]
 				},
 				{
@@ -2433,9 +2433,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tactician",
+					"name": "Precision Fire",
 					"entries": [
-						"You can add you Intelligence modifier to your initiative rolls."
+						"Your cannons gain a +2 bonus to spell attack rolls and to saving throw DCs."
 					]
 				}
 			],
@@ -2570,7 +2570,7 @@
 					"type": "entries",
 					"name": "Altered Appearance",
 					"entries": [
-						"While wearing the helm, you can tap it twice to gain the effects of the {@spell disguise self} spell on it, and to make it take the form of any hat or helm you can envision."
+						"While wearing the helm, you can tap it twice to gain the effects of the {@spell disguise self} spell on it to make it take the form of any hat or helm you can envision."
 					]
 				},
 				{
@@ -2610,7 +2610,7 @@
 					"type": "entries",
 					"name": "War Magic",
 					"entries": [
-						"Whenever you take the attack action, you can replace four of the attacks with casting a spell that has the casting time of an action."
+						"Whenever you take the attack action, you can replace one of your two multiattacks with casting a spell that has the casting time of an action."
 					]
 				}
 			],
