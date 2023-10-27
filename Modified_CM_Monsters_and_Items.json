@@ -2294,14 +2294,20 @@
 			"charges": 7,
 			"entries": [
 				"This delicate and exquisitely crafted clockwork orrery features multiple geared components whose sweeping hands and dials represent the complex interplay of planar and magical realms. Standing two feet high, the orrery housing is a wondrous device imbued with magic of its own, but the power of its six clockwork components makes the artifact even more potent.",
-				"Enhanced Properties. The orrery has the following enhanced properties:",
 				{
-					"type": "list",
-					"items": [
-						"Your Intelligence increases by 2, to a maximum of 24.",
-						"You gain a +1 bonus to Armor Class.",
-						"You can't be charmed or frightened.",
-						"When you first receive this item, your Strength and Wisdom are reduced by 2."
+					"type": "entries",
+					"name": "Enhanced Properties",
+					"entries": [
+						"The orrery has the following enhanced properties:",
+						{
+							"type": "list",
+							"items": [
+								"Your Intelligence increases by 2, to a maximum of 24.",
+								"You have a +1 bonus to Armor Class.",
+								"You can't be charmed or frightened.",
+								"When you first receive this item, your Strength and Wisdom are reduced by 2."
+							]
+						}
 					]
 				},
 				{
