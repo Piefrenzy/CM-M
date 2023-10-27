@@ -360,559 +360,7 @@
 			],
 			"savingThrowForcedLegendary": [
 				"constitution"
-			],
-			"uniqueId": "3cab2769-6673-4b5d-9930-fb08be417234"
-		},
-		{
-			"name": "Zikzokrishka",
-			"group": [
-				"Metallic Dragon"
-			],
-			"source": "CM-M",
-			"page": 1,
-			"size": [
-				"G"
-			],
-			"type": "dragon",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 20,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "40d20 + 280",
-				"average": 700
-			},
-			"speed": {
-				"walk": 40,
-				"burrow": 40,
-				"fly": 80
-			},
-			"str": 27,
-			"dex": 10,
-			"con": 25,
-			"int": 16,
-			"wis": 15,
-			"cha": 20,
-			"save": {
-				"dex": "+6",
-				"con": "+13",
-				"wis": "+8",
-				"cha": "+11"
-			},
-			"skill": {
-				"history": "+9",
-				"perception": "+14",
-				"persuasion": "+11",
-				"stealth": "+6"
-			},
-			"senses": [
-				"blindsight 60 ft.",
-				"darkvision 120 ft."
-			],
-			"passive": 24,
-			"immune": [
-				"fire"
-			],
-			"languages": [
-				"Common",
-				"Draconic"
-			],
-			"cr": "20",
-			"trait": [
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"entries": [
-						"If the dragon fails a saving throw, it can choose to succeed instead."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
-					]
-				},
-				{
-					"name": "Bite",
-					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage."
-					]
-				},
-				{
-					"name": "Claw",
-					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
-					]
-				},
-				{
-					"name": "Tail",
-					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
-					]
-				},
-				{
-					"name": "Frightful Presence",
-					"entries": [
-						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 18} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
-					]
-				},
-				{
-					"name": "Breath Weapons {@recharge 5}",
-					"entries": [
-						"The dragon uses one of the following breath weapons:",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Fire Breath",
-									"entry": "The dragon exhales fire in a 90-foot line that is 10 feet wide. Each creature in that line must make a {@dc 21} Dexterity saving throw, taking 56 ({@damage 16d6}) fire damage on a failed save, or half as much damage on a successful one."
-								},
-								{
-									"type": "item",
-									"name": "Sleep Breath",
-									"entry": "The dragon exhales sleep gas in a 90-foot cone. Each creature in that area must succeed on a {@dc 21} Constitution saving throw or fall {@condition unconscious} for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
-								}
-							]
-						}
-					]
-				},
-				{
-					"name": "Change Shape",
-					"entries": [
-						"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
-						"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Detect",
-					"entries": [
-						"The dragon makes a Wisdom ({@skill Perception}) check."
-					]
-				},
-				{
-					"name": "Tail Attack",
-					"entries": [
-						"The dragon makes a tail attack."
-					]
-				},
-				{
-					"name": "Wing Attack (Costs 2 Actions)",
-					"entries": [
-						"The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a {@dc 22} Dexterity saving throw or take 15 ({@damage 2d6 + 8}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
-					]
-				}
-			],
-			"legendaryGroup": {
-				"name": "Brass Dragon",
-				"source": "MM"
-			},
-			"variant": [
-				{
-					"type": "inset",
-					"name": "Customizing Dragons",
-					"source": "FTD",
-					"page": 33,
-					"entries": [
-						"You can customize any dragon's stat block to reflect the dragon's unique character. Minor changes such as those below are easy to make and have no impact on a dragon's challenge rating.",
-						{
-							"type": "entries",
-							"name": "Languages",
-							"entries": [
-								"Most dragons prefer to speak Draconic but learn Common for dealing with allies and minions. But given their high Intelligence and long life span, dragons can easily learn additional languages. You can add languages to a dragon's stat block."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Skills",
-							"entries": [
-								"Most dragons are proficient in the {@skill Perception} and {@skill Stealth} skills, and many dragons have additional skill proficiencies. As with languages, you can customize a dragon's skill list (even doubling their proficiency bonus with certain skills) to reflect particular interests and activities. You can also give a dragon tool proficiencies, particularly if the dragon spends time in Humanoid form."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Spells",
-							"entries": [
-								"{@note See the \"Variant: Dragons as Innate Spellcasters\" inset(s), below.}"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Other Traits and Actions",
-							"entries": [
-								"You can borrow traits and actions from other monsters to add unique flavor to a dragon. Consider these examples:",
-								{
-									"type": "list",
-									"style": "list-hang-notitle",
-									"items": [
-										{
-											"type": "item",
-											"name": "Change Shape",
-											"entries": [
-												"You can decide that a dragon acquires this action at a younger age than usual, particularly if you want to feature a dragon in Humanoid form in your campaign:",
-												"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
-												"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Flyby",
-											"entries": [
-												"The dragon is an agile flier, quick to fly out of enemies' reach.",
-												"The dragon doesn't provoke an opportunity attack when it flies out of an enemy's reach."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Mimicry",
-											"entries": [
-												"Impersonating characters or their allies could be a fun trick for a crafty dragon.",
-												"The dragon can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 12} Wisdom ({@skill Insight}) check."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Rejuvenation",
-											"entries": [
-												"You might decide that dragons in your campaign, being an essential part of the Material Plane, are nearly impossible to destroy. A dragon's life essence might be preserved in the egg from which it first emerged, in its hoard, or in a cavernous hall at the center of the world, just as a lich's essence is hidden in a phylactery.",
-												"If it has an essence-preserving object, a destroyed dragon gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the object."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Special Senses",
-											"entries": [
-												"Most dragons have {@sense blindsight} and {@sense darkvision}. You might upgrade {@sense blindsight} to {@sense truesight}, or you could give a dragon with a burrowing speed {@sense tremorsense|MM}."
-											]
-										},
-										{
-											"type": "item",
-											"name": "Tunneler",
-											"entries": [
-												"The dragon can burrow through solid rock at half its burrowing speed and leaves a tunnel in its wake."
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"environment": [
-				"desert"
-			],
-			"dragonCastingColor": "brass",
-			"dragonAge": "ancient",
-			"soundClip": {
-				"type": "external",
-				"url": "https://5e.tools/audio/bestiary/brass-dragon.mp3"
-			},
-			"traitTags": [
-				"Legendary Resistances"
-			],
-			"senseTags": [
-				"B",
-				"SD"
-			],
-			"actionTags": [
-				"Breath Weapon",
-				"Frightful Presence",
-				"Multiattack",
-				"Shapechanger"
-			],
-			"languageTags": [
-				"C",
-				"DR"
-			],
-			"miscTags": [
-				"MW",
-				"RCH",
-				"AOE"
-			],
-			"conditionInflict": [
-				"frightened",
-				"prone",
-				"unconscious"
-			],
-			"conditionInflictLegendary": [
-				"blinded",
-				"prone"
-			],
-			"hasFluff": true,
-			"hasFluffImages": true,
-			"tokenUrl": "https://5e.tools/img/MM/Ancient Brass Dragon.png",
-			"fluff": {
-				"name": "Ancient Brass Dragon",
-				"source": "MM",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									"The most gregarious of the true dragons, brass dragons crave conversation, sunlight, and hot, dry climates.",
-									"A brass dragon's head is defined by the broad protective plate that expands from its forehead and the spikes protruding from its chin. A frill runs the length of its neck, and its tapering wings extend down the length of its tail. A brass dragon wyrmling's scales are a dull, mottled brown. As it ages, the dragon's scales begin to shine, eventually taking on a warm, burnished luster. Its wings and frills are mottled green toward the edges, darkening with age. As a brass dragon grows older, its pupils fade until its eyes resemble molten metal orbs.",
-									{
-										"name": "Boldly Talkative",
-										"type": "entries",
-										"entries": [
-											"A brass dragon engages in conversations with thousands of creatures throughout its long life, accumulating useful information which it will gladly share for gifts of treasure. If an intelligent creature tries to leave a brass dragon's presence without engaging in conversation, the dragon follows it. If the creature attempts to escape by magic or force, the dragon might respond with a fit of pique, using its sleep gas to incapacitate the creature. When it wakes, the creature finds itself pinned to the ground by giant claws or buried up to its neck in the sand while the dragon's thirst for small talk is slaked.",
-											"A brass dragon is trusting of creatures that appear to enjoy conversation as much as it does, but is smart enough to know when it is being manipulated. When that happens, the dragon often responds in kind, treating a bout of mutual trickery as a game."
-										]
-									},
-									{
-										"name": "Prized Treasures",
-										"type": "entries",
-										"entries": [
-											"Brass dragons covet magic items that allow them to converse with interesting personalities. An intelligent telepathic weapon or a magic lamp with a djinni bound inside it are among the greatest treasures a brass dragon can possess.",
-											"Brass dragons conceal their hoards under mounds of sand or in secret places far from their primary lairs. They have no trouble remembering where their treasure is buried, and therefore have no need for maps. Adventurers and wanderers should be wary if they happen across a chest hidden in an oasis or a treasure cache tucked away in a half-buried desert ruin, for these might be parts of a brass dragon's hoard."
-										]
-									}
-								]
-							}
-						]
-					},
-					{
-						"type": "entries",
-						"name": "A Brass Dragon's Lair",
-						"entries": [
-							"A brass dragon's desert lair is typically a ruin, canyon, or cave network with ceiling holes to allow for sunlight."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Metallic Dragons",
-						"entries": [
-							"Metallic dragons seek to preserve and protect, viewing themselves as one powerful race among the many races that have a place in the world.",
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"name": "Noble Curiosity",
-										"type": "entries",
-										"entries": [
-											"Metallic dragons covet treasure as do their evil chromatic kin, but they aren't driven as much by greed in their pursuit of wealth. Rather, metallic dragons are driven to investigate and collect, taking unclaimed relics and storing them in their lairs. A metallic dragon's treasure hoard is filled with items that reflect its persona, tell its history, and preserve its memories. Metallic dragons also seek to protect other creatures from dangerous magic. As such, powerful magic items and even evil artifacts are sometimes secreted away in a metallic dragon's hoard.",
-											"A metallic dragon can be persuaded to part with an item in its hoard for the greater good. However, another creature's need for or right to the item is often unclear from the dragon's point of view. A metallic dragon must be bribed or otherwise convinced to part with the item."
-										]
-									},
-									{
-										"name": "Solitary Shapeshifters",
-										"type": "entries",
-										"entries": [
-											"At some point in their long lives, metallic dragons gain the magical ability to assume the forms of humanoids and beasts. When a dragon learns how to disguise itself, it might immerse itself in other cultures for a time. Some dragons are too shy or paranoid to stray far from their lairs and their treasure hoards, but bolder dragons love to wander city streets in humanoid form, taking in the local culture and cuisine, and amusing themselves by observing how the smaller races live.",
-											"Some metallic dragons prefer to stay as far away from civilization as possible so as to not attract enemies. However, this means that they are often far out of touch with current events."
-										]
-									},
-									{
-										"name": "The Persistence of Memory",
-										"type": "entries",
-										"entries": [
-											"Metallic dragons have long memories, and they form opinions of humanoids based on previous contact with related humanoids. Good dragons can recognize humanoid bloodlines by smell, sniffing out each person they meet and remembering any relatives they have come into contact with over the years. A gold dragon might never suspect duplicity from a cunning villain, assuming that the villain is of the same mind and heart as a good and virtuous grandmother. On the other hand, the dragon might resent a noble paladin whose ancestor stole a silver statue from the dragon's hoard three centuries before."
-										]
-									},
-									{
-										"name": "King of Good Dragons",
-										"type": "entries",
-										"entries": [
-											"The chief deity of the metallic dragons is Bahamut, the Platinum Dragon. He dwells in the Seven Heavens of Mount Celestia, but often wanders the Material Plane in the magical guise of a venerable human male in peasant robes. In this form, he is usually accompanied by seven golden canaries-actually seven ancient gold dragons in polymorphed form.",
-											"Bahamut seldom interferes in the affairs of mortal creatures, though he makes exceptions to help thwart the machinations of Tiamat the Dragon Queen and her evil brood. Good-aligned clerics and paladins sometimes worship Bahamut for his dedication to justice and protection. As a lesser god, he has the power to grant divine spells."
-										]
-									}
-								]
-							}
-						]
-					},
-					{
-						"type": "section",
-						"name": "Dragons",
-						"entries": [
-							"True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.",
-							"Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.",
-							"Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.",
-							"True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.",
-							{
-								"type": "table",
-								"caption": "Dragon Age Categories",
-								"colLabels": [
-									"Category",
-									"Size",
-									"Age Range"
-								],
-								"colStyles": [
-									"col-4",
-									"col-4",
-									"col-4"
-								],
-								"rows": [
-									[
-										"Wyrmling",
-										"Medium",
-										"5 years or less"
-									],
-									[
-										"Young",
-										"Large",
-										"6–100 years"
-									],
-									[
-										"Adult",
-										"Huge",
-										"101–800 years"
-									],
-									[
-										"Ancient",
-										"Gargantuan",
-										"801 years or more"
-									]
-								]
-							}
-						]
-					},
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Lair Actions",
-								"entries": [
-									"On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects:",
-									{
-										"type": "list",
-										"items": [
-											"A strong wind blows around the dragon. Each creature within 60 feet of the dragon must succeed on a {@dc 15} Strength saving throw or be pushed 15 feet away from the dragon and knocked {@condition prone}. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames; such as lanterns, have a {@chance 50|50 percent} chance of being extinguished.",
-											"A cloud of sand swirls about in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners. Each creature in it must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Additional Lair Actions",
-										"entries": [
-											"At your discretion, a legendary ({@creature Adult Brass Dragon||adult} or {@creature Ancient Brass Dragon||ancient}) brass dragon can use one or more of the following additional lair actions while in its lair:",
-											{
-												"type": "list",
-												"style": "list-hang-notitle",
-												"items": [
-													{
-														"type": "item",
-														"name": "Animate Statues",
-														"entry": "The dragon chooses up to three statues in the lair that it can see. Each of these statues briefly animates and attacks one creature within 5 feet of it, with a +7 bonus to hit and dealing 10 ({@damage 3d6}) bludgeoning damage on a hit."
-													},
-													{
-														"type": "item",
-														"name": "Blast of Wind",
-														"entry": "A mighty wind sweeps through the lair in a direction of the dragon's choice, blowing along a line 40 feet wide and 100 feet long. Each creature in that area except the dragon must succeed on a DC 15 Strength saving throw or be pushed 15 feet in the wind's direction and be knocked {@condition prone}. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames, such as lanterns, have a {@chance 50|50 percent} chance of being extinguished. If the dragon is within the area of the wind, it can choose to be pushed 15 feet in the wind's direction, and the wind can't knock the dragon {@condition prone}."
-													},
-													{
-														"type": "item",
-														"name": "Obscuring Sand",
-														"entry": "Dust and sand fill the air within 120 feet of the dragon, making the area {@quickref Vision and Light|PHB|2||lightly obscured} until initiative count 20 on the next round."
-													}
-												]
-											}
-										],
-										"source": "FTD"
-									}
-								]
-							}
-						]
-					},
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Regional Effects",
-								"entries": [
-									"The region containing a legendary brass dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
-									{
-										"type": "list",
-										"items": [
-											"Tracks appear in the sand within 6 miles of the dragon's lair. The tracks lead to safe shelters and hidden water sources, while also leading away from areas that the dragon prefers to remain undisturbed.",
-											"Images of Large or smaller monsters haunt the desert sands within 1 mile of the dragon's lair. These illusions move and appear real, although they can do no harm. A creature that examines an image from a distance can tell it's an illusion with a successful {@dc 20} Intelligence ({@skill Investigation}) check. Any physical interaction with an image reveals it to be an illusion, because objects pass through it.",
-											"Whenever a creature with an Intelligence of 3 or higher comes within 30 feet of a water source within 1 mile of the dragon's lair, the dragon becomes aware of the creature's presence and location."
-										]
-									},
-									"If the dragon dies, the tracks fade in {@dice 1d10} days, but the other effects fade immediately.",
-									{
-										"type": "entries",
-										"name": "Additional Regional Effects",
-										"entries": [
-											"Any of these effects might appear in the area around a brass dragon's lair, in addition to or instead of the effects described in the {@i Monster Manual}:",
-											{
-												"type": "list",
-												"style": "list-hang-notitle",
-												"items": [
-													{
-														"type": "item",
-														"name": "Cloud Companion",
-														"entry": "A small, wispy cloud follows non-evil creatures as they journey within 6 miles of the dragon's lair. It changes direction as the creatures do, remaining interposed between them and the direct glare of the sun, and grants them advantage on saving throws to resist the effects of {@book extreme heat|DMG|5|Extreme Heat} (see the {@book Dungeon Master's Guide|DMG})."
-													},
-													{
-														"type": "item",
-														"name": "Talkative Denizens",
-														"entry": "Creatures within 1 mile of the dragon's lair find pleasure in hearing the sound of their own voices. The air is filled with a deafening chorus of birds and small animals, and sapient creatures talk extensively."
-													}
-												]
-											}
-										],
-										"source": "FTD"
-									}
-								]
-							}
-						]
-					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/MM/Brass Dragon.jpg"
-						}
-					}
-				]
-			},
-			"conditionImmune": [
-				"charmed",
-				"frightened"
-			],
-			"resist": [
-				"cold",
-				"poison"
-			],
-			"damageTags": [
-				"B",
-				"F",
-				"P",
-				"S"
-			],
-			"damageTagsLegendary": [
-				"B"
-			],
-			"savingThrowForced": [
-				"constitution",
-				"dexterity",
-				"wisdom"
-			],
-			"savingThrowForcedLegendary": [
-				"constitution",
-				"strength"
-			],
-			"uniqueId": "638e48a8-07e0-40e3-a43b-84c754f0b544"
+			]
 		},
 		{
 			"name": "Ssendam, Lord of Madness",
@@ -1254,8 +702,7 @@
 			],
 			"savingThrowForcedLegendary": [
 				"wisdom"
-			],
-			"uniqueId": "7b1416b4-04b9-44b3-b84c-452d78e75b55"
+			]
 		},
 		{
 			"name": "Mummy",
@@ -1468,8 +915,7 @@
 			"savingThrowForced": [
 				"constitution",
 				"wisdom"
-			],
-			"uniqueId": "ea227d80-ddc4-4e1f-8fef-ba2f3a2a5dbe"
+			]
 		},
 		{
 			"name": "Canopic Golem",
@@ -1648,8 +1094,7 @@
 			"savingThrowForced": [
 				"dexterity",
 				"strength"
-			],
-			"uniqueId": "af4beb24-ecf7-4e32-a961-8315c3b769b0"
+			]
 		},
 		{
 			"name": "Barrowghast",
@@ -1789,8 +1234,7 @@
 			"savingThrowForced": [
 				"constitution",
 				"dexterity"
-			],
-			"uniqueId": "ae22f195-b606-4db4-925b-468516bf909e"
+			]
 		},
 		{
 			"name": "Jhaeros",
@@ -1925,7 +1369,6 @@
 					}
 				]
 			},
-			"uniqueId": "1d6bad62-0d60-414c-8632-706c721f2271",
 			"senses": [
 				"darkvision 60 ft."
 			],
@@ -2056,7 +1499,6 @@
 				"MW"
 			],
 			"tokenUrl": "https://5e.tools/img/TftYP/Four-Armed Gargoyle.png",
-			"uniqueId": "afb67d55-b863-49f1-b107-6971cea5eb71",
 			"damageTags": [
 				"S"
 			]
@@ -2229,7 +1671,6 @@
 					}
 				]
 			},
-			"uniqueId": "cbcd0428-281c-4ee3-aee9-48c56fe226a6",
 			"resist": [
 				"fire"
 			],
@@ -2249,6 +1690,501 @@
 			"savingThrowForcedSpell": [
 				"dexterity",
 				"wisdom"
+			]
+		},
+		{
+			"name": "Zikzokrishka",
+			"group": [
+				"Chromatic Dragon"
+			],
+			"source": "CM-M",
+			"page": 1,
+			"size": [
+				"G"
+			],
+			"type": "dragon",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "40d20 + 320",
+				"average": 740
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40,
+				"fly": 80
+			},
+			"str": 26,
+			"dex": 12,
+			"con": 26,
+			"int": 18,
+			"wis": 20,
+			"cha": 20,
+			"save": {
+				"dex": "+7",
+				"wis": "+11",
+				"cha": "+11",
+				"con": "+14"
+			},
+			"skill": {
+				"insight": "+11",
+				"investigation": "+10",
+				"perception": "+17",
+				"stealth": "+7"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 27,
+			"immune": [
+				"lightning"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "23",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Mythic Awakening",
+					"entries": [
+						"If the dragon is reduced to below half hit points, it recharges its Breath Weapon and regains any expended uses of Legendary Resistance. Additionally, the dragon can now use the options in the \"Mythic Actions\" section for 1 hour."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon one Bite attack and two Claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage plus 11 ({@damage 2d10}) lightning damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Lightning Spear",
+					"entries": [
+						"{@atk rw} {@hit 14} to hit, reach 120 ft., four targets. {@h}13 ({@damage 1d8+ 8}) lightning damage."
+					]
+				},
+				{
+					"name": "Lightning Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales lightning in a 90-foot cone. Each creature in that line must make a {@dc 21} Dexterity saving throw, taking 56 ({@damage 16d6}) lightning damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a {@dc 22} Dexterity saving throw or take 15 ({@damage 2d6 + 8}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				},
+				{
+					"name": "Lightning Spear (Costs 3 Actions).",
+					"entries": [
+						"The dragon makes a lightning spear attack."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Blue Dragon",
+				"source": "MM"
+			},
+			"environment": [
+				"coastal",
+				"desert"
+			],
+			"dragonCastingColor": "blue",
+			"dragonAge": "ancient",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/blue-dragon.mp3"
+			},
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW",
+				"MLW",
+				"THW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"conditionInflictLegendary": [
+				"blinded",
+				"prone",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Ancient Blue Dragon.png",
+			"fluff": {
+				"name": "Ancient Blue Dragon",
+				"source": "MM",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Ancient Blue Dragon.webp"
+						}
+					}
+				],
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Vain and territorial, blue dragons soar through the skies over deserts, preying on caravans and plundering herds and settlements in the verdant lands beyond the desert's reach. These dragons can also be found in dry steppes, searing badlands, and rocky coasts. They guard their territories against all potential competitors, especially brass dragons.",
+									"A blue dragon is recognized by its dramatic frilled ears and the massive ridged horn atop its blunt head. Rows of spikes extend back from its nostrils to line its brow, and cluster on its jutting lower jaw.",
+									"A blue dragon's scales vary in color from an iridescent azure to a deep indigo, polished to a glossy finish by the desert sands. As the dragon ages, its scales become thicker and harder, and its hide hums and crackles with static electricity. These effects intensify when the dragon is angry or about to attack, giving off an odor of ozone and dusty air.",
+									{
+										"name": "Vain and Deadly",
+										"type": "entries",
+										"entries": [
+											"A blue dragon will not stand for any remark or insinuation that it is weak or inferior, taking great pleasure in lording its power over humanoids and other lesser creatures.",
+											"A blue dragon is a patient and methodical combatant. When fighting on its own terms, it turns combat into an extended affair of hours or even days, attacking from a distance with volleys of lightning, then flying well out of harm's reach as it waits to attack again."
+										]
+									},
+									{
+										"name": "Desert Predators",
+										"type": "entries",
+										"entries": [
+											"Though they sometimes eat cacti and other desert plants to sate their great hunger, blue dragons are carnivores. They prefer to dine on herd animals, cooking those creatures with their lightning breath before gorging themselves. Their dining habits make blue dragons an enormous threat to desert caravans and nomadic tribes, which become convenient collections of food and treasure to a dragon's eye.",
+											"When it hunts, a blue dragon buries itself in the desert sand so that only the horn on its nose pokes above the surface, appearing to be an outcropping of stone. When prey draws near, the dragon rises up, sand pouring from its wings like an avalanche as it attacks."
+										]
+									},
+									{
+										"name": "Overlords and Minions",
+										"type": "entries",
+										"entries": [
+											"Blue dragons covet valuable and talented creatures whose service reinforces their sense of superiority. Bards, sages, artists, wizards, and assassins can become valuable agents for a blue dragon, which rewards loyal service handsomely.",
+											"A blue dragon keeps its lair secret and well protected, and even its most trusted servants are rarely allowed within. It encourages ankhegs, giant scorpions, and other creatures of the desert to dwell near its lair for additional security. Older blue dragons sometimes attract air elementals and other creatures to serve them."
+										]
+									},
+									{
+										"name": "Hoarders of Gems",
+										"type": "entries",
+										"entries": [
+											"Though blue dragons collect anything that looks valuable, they are especially fond of gems. Considering blue to be the most noble and beautiful of colors, they covet sapphires, favoring jewelery and magic items adorned with those gems.",
+											"A blue dragon buries its most valuable treasures deep in the sand, while scattering a few less valuable trinkets in plainer sight over hidden sinkholes to punish and eliminate would-be thieves."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "A Blue Dragon's Lair",
+						"entries": [
+							"Blue dragons make their lairs in barren places, using their lightning breath and their burrowing ability to carve out crystallized caverns and tunnels beneath the sands.",
+							"Thunderstorms rage around a legendary blue dragon's lair, and narrow tubes lined with glassy sand ventilate the lair, all the while avoiding the deadly sinkholes that are the dragon's first line of defense.",
+							"A blue dragon will collapse the caverns that make up its lair if that lair is invaded. The dragon then burrows out, leaving its attackers to be crushed and suffocated. When it returns later, it collects its possessions-along with the wealth of the dead intruders."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Chromatic Dragons",
+						"entries": [
+							"The black, blue, green, red, and white dragons represent the evil side of dragonkind. Aggressive, gluttonous, and vain, chromatic dragons are dark sages and powerful tyrants feared by all creatures-including each other.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"name": "Driven by Greed",
+										"entries": [
+											"Chromatic dragons lust after treasure, and this greed colors their every scheme and plot. They believe that the world's wealth belongs to them by right, and a chromatic dragon seizes that wealth without regard for the humanoids and other creatures that have \"stolen\" it. With its piles of coins, gleaming gems, and magic items, a dragon's hoard is the stuff of legend. However, chromatic dragons have no interest in commerce, amassing wealth for no other reason than to have it."
+										],
+										"type": "entries"
+									},
+									{
+										"name": "Creatures of Ego",
+										"type": "entries",
+										"entries": [
+											"Chromatic dragons are united by their sense of superiority, believing themselves the most powerful and worthy of all mortal creatures. When they interact with other creatures, it is only to further their own interests. They believe in their innate right to rule, and this belief is the cornerstone of every chromatic dragon's personality and worldview. Trying to humble a chromatic dragon is like trying to convince the wind to stop blowing. To these creatures, humanoids are animals, fit to serve as prey or beasts of burden, and wholly unworthy of respect."
+										]
+									},
+									{
+										"name": "Dangerous Lairs",
+										"type": "entries",
+										"entries": [
+											"A dragon's lair serves as the seat of its power and a vault for its treasure. With its innate toughness and tolerance for severe environmental effects, a dragon selects or builds a lair not for shelter but for defense, favoring multiple entrances and exits, and security for its hoard.",
+											"Most chromatic dragon lairs are hidden in dangerous and remote locations to prevent all but the most audacious mortals from reaching them. A black dragon might lair in the heart of a vast swamp, while a red dragon might claim the caldera of an active volcano. In addition to the natural defenses of their lairs, powerful chromatic dragons use magical guardians, traps, and subservient creatures to protect their treasures."
+										]
+									},
+									{
+										"name": "Queen of Evil Dragons",
+										"type": "entries",
+										"entries": [
+											"Tiamat the Dragon Queen is the chief deity of evil dragonkind. She dwells on Avernus, the first layer of the Nine Hells. As a lesser god, Tiamat has the power to grant spells to her worshipers, though she is loath to share her power. She epitomizes the avarice of evil dragons, believing that the multiverse and all its treasures will one day be hers and hers alone.",
+											"Tiamat is a gigantic dragon whose five heads reflect the forms of the chromatic dragons that worship her-black, blue, green, red, and white. She is a terror on the battlefield, capable of annihilating whole armies with her five breath weapons, her formidable spellcasting, and her fearsome claws.",
+											"Tiamat's most hated enemy is Bahamut the Platinum Dragon, with whom she shares control of the faith of dragonkind. She also holds a special enmity for Asmodeus, who long ago stripped her of the rule of Avernus and who continues to curb the Dragon Queen's power."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "section",
+						"name": "Dragons",
+						"entries": [
+							"True dragons are winged reptiles of ancient lineage and fearsome power. They are known and feared for their predatory cunning and greed, with the oldest dragons accounted as some of the most powerful creatures in the world. Dragons are also magical creatures whose innate power fuels their dreaded breath weapons and other preternatural abilities.",
+							"Many creatures, including wyverns and dragon turtles, have draconic blood. However, true dragons fall into the two broad categories of chromatic and metallic dragons. The black, blue, green, red, and white dragons are selfish, evil, and feared by all. The brass, bronze, copper, gold, and silver dragons are noble, good, and highly respected by the wise.",
+							"Though their goals and ideals vary tremendously, all true dragons covet wealth, hoarding mounds of coins and gathering gems, jewels, and magic items. Dragons with large hoards are loath to leave them for long, venturing out of their lairs only to patrol or feed.",
+							"True dragons pass through four distinct stages of life, from lowly wyrmlings to ancient dragons, which can live for over a thousand years. In that time, their might can become unrivaled and their hoards can grow beyond price.",
+							{
+								"type": "table",
+								"caption": "Dragon Age Categories",
+								"colLabels": [
+									"Category",
+									"Size",
+									"Age Range"
+								],
+								"colStyles": [
+									"col-4",
+									"col-4",
+									"col-4"
+								],
+								"rows": [
+									[
+										"Wyrmling",
+										"Medium",
+										"5 years or less"
+									],
+									[
+										"Young",
+										"Large",
+										"6–100 years"
+									],
+									[
+										"Adult",
+										"Huge",
+										"101–800 years"
+									],
+									[
+										"Ancient",
+										"Gargantuan",
+										"801 years or more"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Lair Actions",
+								"entries": [
+									"On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+									{
+										"type": "list",
+										"items": [
+											"Part of the ceiling collapses above one creature that the dragon can see within 120 feet of it. The creature must succeed on a {@dc 15} Dexterity saving throw or take 10 ({@damage 3d6}) bludgeoning damage and be knocked {@condition prone} and buried. The buried target is {@condition restrained} and unable to breathe or stand up. A creature can take an action to make a {@dc 10} Strength check, ending the buried state on a success.",
+											"A cloud of sand swirls about in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners. Each creature in the cloud must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+											"Lightning arcs, forming a 5-foot-wide line between two of the lair's solid surfaces that the dragon can see. They must be within 120 feet of the dragon and 120 feet of each other. Each creature in that line must succeed on a {@dc 15} Dexterity saving throw or take 10 ({@damage 3d6}) lightning damage."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Additional Lair Actions",
+										"entries": [
+											"At your discretion, a legendary ({@creature Adult Blue Dragon||adult} or {@creature Ancient Blue Dragon||ancient}) blue dragon can use one or both of the following additional lair actions while in its lair:",
+											{
+												"type": "list",
+												"style": "list-hang-notitle",
+												"items": [
+													{
+														"type": "item",
+														"name": "Misleading Mirage",
+														"entry": "Until initiative count 20 on the next round, at each intersection or branching passage in the lair, a creature other than the dragon has a {@chance 50|50 percent} chance of going in a different direction from the direction it intends."
+													},
+													{
+														"type": "item",
+														"name": "Sudden Sinkhole",
+														"entry": "The dragon chooses a point on the ground that it can see within 120 feet of it. A 5-foot-radius, 20-foot-deep pit forms centered on that point. A creature on the ground above where the pit formed must make a DC 15 Dexterity saving throw. On a failed save, a creature falls to the bottom of the pit, taking 7 ({@damage 2d6}) bludgeoning damage and landing {@condition prone}. On a successful save, a creature moves to the nearest unoccupied space instead of falling in the pit."
+													}
+												]
+											}
+										],
+										"source": "FTD"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Regional Effects",
+								"entries": [
+									"The region containing a legendary blue dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:",
+									{
+										"type": "list",
+										"items": [
+											"Thunderstorms rage within 6 miles of the lair.",
+											"Dust devils scour the land within 6 miles of the lair. A dust devil has the statistics of an air elemental, but it can't fly, has a speed of 50 feet, and has an Intelligence and Charisma of 1 (-5).",
+											"Hidden sinkholes form in and around the dragon's lair. A sinkhole can be spotted from a safe distance with a successful {@dc 20} Wisdom ({@skill Perception}) check. Otherwise, the first creature to step on the thin crust covering the sinkhole must succeed on a {@dc 15} Dexterity saving throw or fall {@dice 1d6 × 10} feet into the sinkhole."
+										]
+									},
+									"If the dragon dies, the dust devils disappear immediately, and the thunderstorms abate within {@dice 1d10} days. Any sinkholes remain where they are.",
+									{
+										"type": "entries",
+										"name": "Additional Regional Effects",
+										"entries": [
+											"Any of these effects might appear in the area around a blue dragon's lair, in addition to or instead of the effects described in the {@i Monster Manual}:",
+											{
+												"type": "list",
+												"style": "list-hang-notitle",
+												"items": [
+													{
+														"type": "item",
+														"name": "Blue Luster",
+														"entry": "Creatures that spend a year within 1 mile of the dragon's lair find blue objects fascinating and feel compelled to acquire them at every opportunity."
+													},
+													{
+														"type": "item",
+														"name": "Mirage Terrain",
+														"entry": "The area immediately surrounding the lair appears to be a lush oasis. A creature carefully examining the illusion can attempt a DC 15 Intelligence ({@skill Investigation}) check to disbelieve it. A creature who disbelieves the illusion sees it as a vague image superimposed on the underlying terrain."
+													},
+													{
+														"type": "item",
+														"name": "Sandstorm",
+														"entry": "A sandstorm blows constantly within 1 mile of the dragon's lair."
+													}
+												]
+											}
+										],
+										"source": "FTD"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"poisoned",
+				"restrained"
+			],
+			"isNamedCreature": true,
+			"legendaryActions": 3,
+			"mythic": [
+				{
+					"name": "Bite",
+					"entries": [
+						"The dragon makes one Bite attack."
+					]
+				},
+				{
+					"name": "Chromatic Flare (Costs 2 Actions)",
+					"entries": [
+						"The dragon flares with elemental energy. Each creature in a 60-foot-radius sphere centered on the dragon must succeed on a {@dc 21} Dexterity saving throw or take 18 ({@damage 4d8}) lightning damage."
+					]
+				}
+			],
+			"mythicHeader": [
+				"If the dragon's Mythic Awakening trait has activated in the last hour, it can use the options below as legendary actions."
+			],
+			"reaction": [
+				{
+					"name": "Spell Reflection",
+					"entries": [
+						"If the dragon makes a successful saving throw against a spell or a spell attack misses it, the dragon can make a Dexterity check with a DC equal to 10 + the spell's level to blow the spell back at a new target. If the spell forces a saving throw, the target makes its own save, or if it was an attack, the attack roll is rerolled at the chosen target."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"L",
+				"P",
+				"S"
+			],
+			"damageTagsLegendary": [
+				"B",
+				"L"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"savingThrowForcedLegendary": [
+				"constitution",
+				"dexterity"
 			]
 		}
 	],
@@ -2514,7 +2450,6 @@
 						"As an action, you can hurl a string of insults laced with enchantments at a creature you can see within 60 feet. If the creature can hear you (though it need not understand you), it must succeed on a Wisdom saving throw against your spell save DC or take a number of d12 equal to your level psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn. Once this property is used, it can't be used again until after a short rest."
 					]
 				}
-
 			],
 			"hasFluffImages": true
 		},
