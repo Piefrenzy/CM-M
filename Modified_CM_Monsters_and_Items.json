@@ -2253,7 +2253,7 @@
 			"cr": "9",
 			"trait": [
 				{
-					"name": "Aura of Sleep idk",
+					"name": "Aura of Sleep",
 					"entries": [
 						"Any creature other than a flind that starts its turn within 15 feet of the flind must make a {@dc 15} Constitution saving throw. On a failed save, the creature is {@condition unconscious} for one minute. An {@condition unconscious} creature may repeat this saving throw at the end of each of its turns.",
 						"If a creature succeeds on any of these saves or the effect ends on it, the creature is immune to Aura of Sleep for the next 24 hours."
@@ -2389,29 +2389,29 @@
 				}
 			],
 			"hp": {
-				"average": 262,
-				"formula": "21d12 + 126"
+				"formula": "20d12 + 140",
+				"average": 270
 			},
 			"speed": {
 				"walk": 40,
 				"fly": 80
 			},
 			"str": 26,
-			"dex": 15,
-			"con": 22,
-			"int": 20,
+			"dex": 16,
+			"con": 24,
+			"int": 18,
 			"wis": 16,
 			"cha": 22,
 			"save": {
 				"str": "+14",
-				"con": "+12",
+				"con": "+13",
 				"wis": "+9",
 				"cha": "+12"
 			},
 			"senses": [
 				"truesight 120 ft."
 			],
-			"passive": 13,
+			"passive": 19,
 			"resist": [
 				"cold",
 				"lightning",
@@ -2447,7 +2447,7 @@
 				{
 					"name": "Fire Aura",
 					"entries": [
-						"At the start of each of the balor's turns, each creature within 5 feet of it takes 10 ({@damage 3d6}) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches the balor or hits it with a melee attack while within 5 feet of it takes 10 ({@damage 3d6}) fire damage."
+						"At the start of each of the balor's turns, each creature within 10 feet of it takes 10 ({@damage 3d6}) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches the balor or hits it with a melee attack while within 10 feet of it takes 10 ({@damage 3d6}) fire damage."
 					]
 				},
 				{
@@ -2460,6 +2460,12 @@
 					"name": "Magic Weapons",
 					"entries": [
 						"The balor's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Bloodied",
+					"entries": [
+						"When the balor becomes blooded (135 HP), he can also make a kick attack with his multiattack."
 					]
 				}
 			],
@@ -2483,20 +2489,9 @@
 					]
 				},
 				{
-					"name": "Teleport",
+					"name": "Kick",
 					"entries": [
-						"The balor magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
-					]
-				}
-			],
-			"variant": [
-				{
-					"type": "variant",
-					"name": "Summon Demon (1/Day)",
-					"entries": [
-						"The demon chooses what to summon and attempts a magical summoning.",
-						"A balor has a {@chance 50|50 percent|50% summoning chance} chance of summoning {@dice 1d8} {@creature vrock||vrocks}, {@dice 1d6} {@creature hezrou||hezrous}, {@dice 1d4} {@creature glabrezu||glabrezus}, {@dice 1d3} {@creature nalfeshnee||nalfeshnees}, {@dice 1d2} {@creature marilith||mariliths}, or one {@creature goristro}.",
-						"A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}28 ({@damage 3d12 + 8}) bludgeoning damage."
 					]
 				}
 			],
@@ -2928,8 +2923,21 @@
 					}
 				]
 			},
-			"uniqueId": "265b1b20-73ac-4d65-872b-e148b3f85888",
+			"uniqueId": "1600725b-0d15-487b-a602-e98b77fe620d",
+			"bonus": [
+				{
+					"name": "Teleport",
+					"entries": [
+						"The balor magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"skill": {
+				"perception": "+9",
+				"intimidation": "+12"
+			},
 			"damageTags": [
+				"B",
 				"F",
 				"L",
 				"S"
@@ -2959,29 +2967,29 @@
 			"alignmentPrefix": "Typically ",
 			"ac": [
 				{
-					"ac": 16,
+					"ac": 15,
 					"from": [
 						"{@item studded leather armor|PHB}"
 					]
 				}
 			],
 			"hp": {
-				"formula": "12d6 + 60",
-				"average": 102
+				"formula": "14d6 + 56",
+				"average": 105
 			},
 			"speed": {
 				"walk": 30
 			},
 			"str": 14,
-			"dex": 18,
-			"con": 20,
+			"dex": 16,
+			"con": 18,
 			"int": 14,
 			"wis": 16,
-			"cha": 20,
+			"cha": 18,
 			"senses": [
 				"darkvision 60 ft."
 			],
-			"passive": 16,
+			"passive": 18,
 			"languages": [
 				"Gnoll",
 				"Abyssal"
@@ -2989,7 +2997,7 @@
 			"cr": "9",
 			"trait": [
 				{
-					"name": "Aura of Sleep idk",
+					"name": "Aura of Sleep",
 					"entries": [
 						"Any creature other than a flind that starts its turn within 15 feet of the flind must make a {@dc 15} Constitution saving throw. On a failed save, the creature is {@condition unconscious} for one minute. An {@condition unconscious} creature may repeat this saving throw at the end of each of its turns.",
 						"If a creature succeeds on any of these saves or the effect ends on it, the creature is immune to Aura of Sleep for the next 24 hours."
@@ -3052,7 +3060,10 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The flind is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 17}, +9 to hit with spell attacks). The flind has the following spells prepared:"
+						"The flind is a 14th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 17}, +9 to hit with spell attacks). The flind has the following spells prepared:"
+					],
+					"will": [
+						"{@spell fire bolt}"
 					],
 					"spells": {
 						"1": {
@@ -3096,11 +3107,14 @@
 								"{@spell disintegrate}"
 							],
 							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell fire storm}"
+							],
+							"slots": 1
 						}
 					},
-					"will": [
-						"{@spell fire bolt}"
-					],
 					"ability": "cha",
 					"type": "spellcasting"
 				}
@@ -3109,10 +3123,10 @@
 				"O"
 			],
 			"skill": {
-				"stealth": "+8",
 				"intimidation": "+9",
-				"survival": "+6",
-				"perception": "+6"
+				"stealth": "+8",
+				"survival": "+8",
+				"perception": "+8"
 			},
 			"uniqueId": "0f2e0dfe-26ae-49d9-a100-3cc0cb2854d7",
 			"damageTagsSpell": [
@@ -3189,7 +3203,7 @@
 			"cr": "9",
 			"trait": [
 				{
-					"name": "Aura of Sleep idk",
+					"name": "Aura of Sleep",
 					"entries": [
 						"Any creature other than a flind that starts its turn within 15 feet of the flind must make a {@dc 15} Constitution saving throw. On a failed save, the creature is {@condition unconscious} for one minute. An {@condition unconscious} creature may repeat this saving throw at the end of each of its turns.",
 						"If a creature succeeds on any of these saves or the effect ends on it, the creature is immune to Aura of Sleep for the next 24 hours."
@@ -3278,6 +3292,14 @@
 				"dexterity"
 			],
 			"uniqueId": "096091b2-c80d-43d0-bc8d-fdbe6243f746",
+			"bonus": [
+				{
+					"name": "Mark",
+					"entries": [
+						"The flind marks a target to kill. All of the flind's attacks' against that target receive a {@hit 2} to hit."
+					]
+				}
+			],
 			"damageTags": [
 				"P"
 			],
@@ -3300,7 +3322,13 @@
 				{
 					"ac": 17,
 					"from": [
-						"natural armor"
+						"weapon attacks"
+					]
+				},
+				{
+					"ac": 19,
+					"from": [
+						"spell attacks"
 					]
 				}
 			],
@@ -3336,13 +3364,20 @@
 				{
 					"name": "Spell-Resistant Carapace",
 					"entries": [
-						"The gigant has advantage on saving throws against spells, and any creature that makes a spell attack against the gigant has disadvantage on the attack roll."
+						"The gigant has advantage on saving throws against spells, and any creature that makes a spell attack against the gigant has disadvantage on the attack roll.",
+						"The gigant also has +2 AC to spell attack rolls."
 					]
 				},
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
 						"If the gigant fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Bloodied",
+					"entries": [
+						"When the gigant becomes bloodied (165 HP), its Mandibles and Talons attacks deal and extra 6 ({@damage 1d6 + 2}) damage."
 					]
 				}
 			],
@@ -3356,7 +3391,7 @@
 				{
 					"name": "Mandibles",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 10 ft., one creature. {@h}18 ({@damage 3d6 + 7}) slashing damage, and the target has the {@condition grappled} condition (escape {@dc 17}). Until the grapple ends, the target takes 18 ({@damage 3d6 + 7}) slashing damage at the start of each of the gigant's turns. While the gigant is grappling a target, it can't use Mandibles against other targets."
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one creature. {@h}18 ({@damage 3d6 + 7}) slashing damage, and the target has the {@condition grappled} condition (escape {@dc 17}). Until the grapple ends, the target takes 18 ({@damage 3d6 + 7}) slashing damage at the start of each of the gigant's turns. While the gigant is grappling a target, it can't use Mandibles against other targets, and it gains +2 to its AC and all saving throws."
 					]
 				},
 				{
@@ -3497,7 +3532,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 7 ({@damage 2d6}) acid damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the ankheg can bite only the {@condition grappled} creature and has advantage on attack rolls to do so."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 7 ({@damage 2d6}) acid damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the ankheg can bite only the {@condition grappled} creature and has advantage on attack rolls to do so, and it gets +2 to its AC and all saving throws."
 					]
 				},
 				{
@@ -3595,6 +3630,14 @@
 			"save": {
 				"con": "+7"
 			},
+			"trait": [
+				{
+					"name": "Blooded",
+					"entries": [
+						"When the ankheg becomes blooded (57 HP), it instantly recharges its Acid Spray and uses it at the creature that last damaged it."
+					]
+				}
+			],
 			"damageTags": [
 				"A",
 				"S"
@@ -3678,7 +3721,7 @@
 				{
 					"name": "Proboscis",
 					"entries": [
-						"The chasme targets one creature it can see within 10 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 45 ({@damage 10d8}) necrotic damage on a failed save, or half as much damage on a successful one. The chasme regains a number of hit points equal to the amount of damage dealt."
+						"The chasme targets one creature it can see within 10 feet of it. The target must succeed on a {@dc 18} Constitution saving throw, taking 41 ({@damage 9d8}) necrotic damage on a failed save, or half as much damage on a successful one. The chasme regains a number of hit points equal to half the amount of damage dealt."
 					]
 				}
 			],
@@ -4871,6 +4914,175 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
+			]
+		},
+		{
+			"name": "Gigant",
+			"source": "CM-M",
+			"page": 1,
+			"size": [
+				"G"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d20 + 120",
+				"average": 330
+			},
+			"speed": {
+				"walk": 50,
+				"burrow": 50,
+				"fly": 80
+			},
+			"str": 24,
+			"dex": 14,
+			"con": 22,
+			"int": 4,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"wis": "+8",
+				"dex": "+8"
+			},
+			"skill": {
+				"perception": "+8",
+				"stealth": "+8"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"cr": "20",
+			"trait": [
+				{
+					"name": "Spell-Resistant Carapace",
+					"entries": [
+						"The gigant has advantage on saving throws against spells, and any creature that makes a spell attack against the gigant has disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the gigant fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Bloodied",
+					"entries": [
+						"When the gigant becomes bloodied (165 HP), its Mandibles and Talons attacks deal and extra 6 ({@damage 1d6 + 2}) damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The gigant makes one Mandibles attack and two Talons attacks."
+					]
+				},
+				{
+					"name": "Mandibles",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one creature. {@h}18 ({@damage 3d6 + 7}) slashing damage, and the target has the {@condition grappled} condition (escape {@dc 17}). Until the grapple ends, the target takes 18 ({@damage 3d6 + 7}) slashing damage at the start of each of the gigant's turns. While the gigant is grappling a target, it can't use Mandibles against other targets, and it gains +2 to its AC and all saving throws."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 20 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage, and the target is pulled 10 feet straight toward the gigant."
+					]
+				},
+				{
+					"name": "Scale Dust {@recharge 5}",
+					"entries": [
+						"The gigant releases magical dust from its wings in a 30-foot cube. Each creature in that area must make a {@dc 19} Constitution saving throw, taking 45 ({@damage 10d8}) poison damage on a failed save, or half as much damage on a successful one. On a success or failure, the creature has the {@condition poisoned} condition for 1 hour. While {@condition poisoned} this way, the creature can't regain hit points."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Drone",
+					"entries": [
+						"The gigant produces a horrid droning sound by rapidly beating its wings. Each creature within 10 feet of the gigant must succeed on a {@dc 19} Constitution saving throw or take 10 ({@damage 3d6}) thunder damage and have the {@condition incapacitated} condition until the end of its next turn. The gigant can then fly up to half its flying speed."
+					]
+				}
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/BGG/Gigant.png",
+			"fluff": {
+				"name": "Gigant",
+				"source": "BGG",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"A gigant is a towering insectile creature variously regarded as a harbinger of doom, a defender of nature, and a divine messenger of mysterious purpose. Giants regard them as a plague, since gigants prefer giants over other food. Some giants claim gigants are created by the weird magical aura that surrounds a gargantua.",
+							"A gigant resembles an enormous beetle with legs ending in sharp talons. It uses its talons to bring creatures to its enormous mandibles, which are strong enough to carry a giant to the gigant's nest to be devoured.",
+							"A gigant's wings are usually folded under its carapace, but the speedy flier can also beat its wings to create a horrible sound or to spread a toxic dust."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/BGG/Gigant.webp"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Talon Attack",
+					"entries": [
+						"The gigant makes a Talons attack."
+					]
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"uniqueId": "34757f6d-9433-4cb3-a5ef-e48fc84ab959",
+			"damageTags": [
+				"I",
+				"S",
+				"T"
+			],
+			"savingThrowForced": [
+				"constitution"
 			]
 		}
 	],

@@ -1,0 +1,22 @@
+Adjacent to ally +2 AC
++ AC vs spells specifically
++ AC vs weapon attacks specifically
+Temporary + to AC/Saving Throws based on something happening (grappling?)
+damage/condition auras
+multi-save conditions
+Attack removes resistance temporarily (saving throw success?)
+Disadvantage on saving throws until end of caster's next turn
+Instead of imposing disadvantage on attacks, just a -2.
+Resist flat amount
+Recharge 3-6 or 4-6 instead of just 5-6 or 6.
+Bonus Action control 2 allies to make an attack
+Mark an enemy to get a +2 to hit or free attack if they hit someone else
+extra damage if beating AC by certain amount
+extra damage if it has advantage?
+extra damage vs targets with a specific condition
+Recharge big attack at half HP, quarter HP?
+extra attack when at half HP
++ defense or +to hit when at half HP
+Ongoing damage until save
+Forced movement towards creature (BA vs Charisma?)
+If creature does not move, enemies have disadvantage on attacks
