@@ -1,16 +1,18 @@
-Players take 4 items to cleric man and revive Matreus
+Players take 4 items to Theros (cleric man) and revive Matreus
 
-Matreus explains he was working with a scholar named Alkazaar in Azrrhat in Anaurach, a desert to the north east.
+Matreus explains he was working with a scholar named Alkazaar in Azrrhat, Anaurach, which is a desert to the north east of Candlekeep
 
-He also explains the plague is being caused by a former druid named Xanthoria. Based on research that him and Alkazaar have done, her home was initially destroyed by the undead, and by researching fungi and lichen she was hoping to create a weapon to protect her new home.
+He also explains the plague is being caused by a former druid named Xanthoria. She's become some form of a lich, but initial research with Alkazaar has shown that she is not just a standard lich. The plague is a result of her journey to lichdom and whatever unique shape her phylactery has taken. They are certain about one thing tho - defeating Xanthoria and destroying her phylactery will end the plague.
 
-However, her research proved ineffective and at some point started trending towards creating a ward against death, until finally toward achieving lichdom.
-
-Her experiments and how she transformed herself into a lich are the source of the plague itself. If she is defeated and her phylactery destroyed, the plague should stop spreading. Not sure of what her phylactery is, other than it is not a typical lich's phylactery and may be in some other form.
-
+###
 Something she obsessed over in her research were "Mycorji" and "Shedaklah", as well as the number 222. Arcana check to get some info (Demonomicon add double proficiency on this check)
+###
 
-Despite knowing all that, they have been unsuccessful in tracking her down. Matreus suggests that the party go visit Alkazaar since Matreus has been dead for a couple of months and he is out of the loop on any research. Alkazaar may have learned something new or may have found her location or at least a way to track her down.
+Despite knowing all that, they have been unsuccessful in tracking her down. Matreus suggests that the party go visit Alkazaar since Matreus has been dead for a couple of months and he is out of the loop on any research. Alkazaar may have learned something about Xanthoria's past, the magic behind the plague, her new lich form, or possibly even her location.
+
+He tells them the journey will take a few weeks, but it will be worth it. He'll arrange for Alkazaar to meet them in the local inn so the players won't have to worry about trying to find his house. He also doesn't really have a house because he is a nomad.
+
+---------------
 
 At Pelk's, he notes that his stock of Potion of Recovery has been having some issues. He typically receives the ingredients to make them from a mercantile guild in the desert, but recently they haven't had any of the ingredients to ship to him. He's got no clue why and remarks this has never happened before.
 
@@ -24,9 +26,11 @@ He'll offer to make players Potions of Recovery for only 100 gold each, or they 
 
 Players take a few weeks to get to Azrrhat, where Alkazaar is.
 
-Once they arrive, Alkazaar explains that he has determined that an ancient legendary Netherese magic item called the "Crystal Ball of True Seeing" can reveal Xanthoria and her current location. Unfortunately, he doesn't know where it is right now, but has been searching ruins near Azrrhat in search for any clues for its location.
+Once they arrive, Alkazaar explains that he's discovered that the magic Xanthoria used was likely some ancient Netherese magic from almost a thousand years ago. However, 
 
-He suggests the characters accompany him to another set of ruins, this one being a bit further from town so he asks the characters for protection.
+Alkazaar tells the players about how Xanthoria's lichdom was LIKELY achieved by the use of some ancient Netherese magic, but he's not sure exactly what happened yet. He has been visiting ruins for the past couple months and been slowly gathering intel. He suggests the characters accompany him to another set of ruins that are a bit further away from the town and wants them to protect him since there have been reports of fiends hiding in ruins.
+
+---------------
 
 At the ruins (Haruum), the characters uncover a sapphire golem that is mostly buried in sand, and Alkazaar recognizes him as the rumored "Sapphire Sentinel" that was created by ancient Netherese wizards to protect ancient Prince Hamukai and a fabled "Nether Scroll". Once "Hamukai" is said outloud, the golem obeys every command given to it.
 
@@ -35,6 +39,8 @@ The golem is able to communicate through sign language (insight roll is needed t
 The ruins (Haruum) describe a story of a prince (Hamukai) being in a battle to protect the Nether Scroll. During the battle, his companion, the Sapphire Sentinel, was blasted by some magic and flung far across the desert to an unknown location. Despite that, the prince was victorious, but before his opponent fled in defeat, a powerful Netherese curse was placed on him that caused him to age rapidly. Knowing that his fate was sealed, he had Netherese wizards perform a ritual to seal him and the scroll in a sarcophagus that only he and the Sapphire Sentinel could dispel. The ritual put him in stasis, and his life force would be the fuel that would allow it to last for a millenia. However, if he was ever disturbed, the aging curse would catch up to him rapidly and he would die and turn to dust almost instantly.
 
 The Golem urges that the players take him to their ancient city of Azumar, so that he can see his prince and find a way to help him. Alkazaar thinks this is a great idea, especially because the adventurers are with him. The ruins of Azumar have been perpetually inhabitted by a Blue Dragon, and have been in a constant sandstorm for as long as her can remember. He's never gone there because that city is associated with death.
+
+---------------
 
 Players HOPEFULLY go there
 
