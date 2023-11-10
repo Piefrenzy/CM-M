@@ -5084,6 +5084,1712 @@
 			"savingThrowForced": [
 				"constitution"
 			]
+		},
+		{
+			"name": "Bael",
+			"isNamedCreature": true,
+			"source": "CM-M",
+			"page": 1,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|PHB|plate}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "23d12 + 161",
+				"average": 310
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 24,
+			"dex": 17,
+			"con": 24,
+			"int": 21,
+			"wis": 24,
+			"cha": 24,
+			"save": {
+				"dex": "+9",
+				"int": "+11",
+				"cha": "+13",
+				"con": "+13"
+			},
+			"skill": {
+				"intimidation": "+13",
+				"perception": "+13",
+				"persuasion": "+13"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 23,
+			"resist": [
+				"cold",
+				"fire",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"cr": "19",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Bael casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
+					],
+					"will": [
+						"{@spell alter self} (can become Medium)",
+						"{@spell charm person}",
+						"{@spell detect magic}",
+						"{@spell invisibility}",
+						"{@spell major image}"
+					],
+					"daily": {
+						"1": [
+							"{@spell dominate monster}"
+						],
+						"3e": [
+							"{@spell dispel magic}",
+							"{@spell fly}",
+							"{@spell suggestion}",
+							"{@spell wall of fire}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dread",
+					"entries": [
+						"Any creature, other than a devil, that starts its turn within 10 feet of Bael must succeed on a {@dc 20} Wisdom saving throw or be {@condition frightened} of him until the start of its next turn. A creature succeeds on this saving throw automatically if Bael wishes it or if he is {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Bael fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Bael have advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Bael regains 20 hit points at the start of his turn. If he takes cold or radiant damage, this trait doesn't function at the start of his next turn. Bael dies only if he starts his turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Bloodied",
+					"entries": [
+						"When Bael is Bloodied (155HP), he becomes enraged and his Hellish Morningstar does an extra 4 ({@damage 1d8}) force damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Bael makes two Hellish Morningstar attacks."
+					]
+				},
+				{
+					"name": "Hellish Morningstar",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 20 ft., one target. {@h}16 ({@damage 2d8 + 7}) force damage plus 9 ({@damage 2d8}) necrotic damage."
+					]
+				},
+				{
+					"name": "Infernal Command",
+					"entries": [
+						"Each of Bael's allies within 60 feet of him can't be {@condition charmed} or {@condition frightened} until the end of his next turn."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"Bael teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Fiendish Magic",
+					"entries": [
+						"Bael uses Spellcasting or Teleport."
+					]
+				},
+				{
+					"name": "Infernal Command",
+					"entries": [
+						"Bael uses Infernal Command."
+					]
+				},
+				{
+					"name": "Attack",
+					"entries": [
+						"Bael makes one Hellish Morningstar attack."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/bael.mp3"
+			},
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Teleport"
+			],
+			"languageTags": [
+				"XX",
+				"TP"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"MLW"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"invisible"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MPMM/Bael.png",
+			"fluff": {
+				"name": "Bael",
+				"source": "MPMM",
+				"entries": [
+					"With the Blood War between devils and demons raging for eons and no end in sight, opportunities abound for ambitious archdevils to win fame, glory, and power in the ongoing struggle. Duke Bael, one of Mammon's most important vassals, has won fame and acclaim for his victories. Charged with leading sixty-six companies of {@creature barbed devil||barbed devils}, Bael has proven to be a tactical genius, earning esteem for himself and his master as a result of victory after victory over the abyssal host. Mammon relies on Bael to safeguard his holdings because of Bael's battle acumen. During a time when so many other archdevils have lost their positions, Mammon has never been ousted, which is a testament to Bael's skill on the battlefield.",
+					"For his accomplishments, Bael has been granted the title of Bronze General. His accolades notwithstanding, he has had a difficult time navigating the quagmire of infernal politics. His critics call him naive, though never to his face. His primary interest has always been leading soldiers in battle, so he finds it frustrating to have his ambitions of ascending to a higher rank constantly stymied by politically shrewd rivals.",
+					"Bael prefers to make servants out of his adversaries, and mortals bound to his service earn their wretched place by falling victim to his superior stratagems. Bael gladly spares the lives of those he defeats—if they pledge their souls and service to him. Demons are an exception; although he is willing to corrupt almost any other foes, he always destroys demons he defeats.",
+					"Bael also welcomes mortals into his service if they can provide him with an advantage in his politicking. He recruits savvy individuals and relies on them to represent his interests at Mammon's court, which leaves him free to pursue his battle lust.",
+					"Despite his lack of interest in affairs outside battle, or perhaps because of it, Bael has gained a small following of cultists. Those who worship at his altar call him the King of Hell, and the most deluded believe that he is the lord of all devils. In arcane circles, certain writings, such as the dreaded Book of Fire, say that Bael revealed the invisibility spell to the world, though some scholars of magic hotly refute such claims. Bael is sometimes depicted as a toad, a cat, a human, or some combination of these forms."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MPMM/Bael.webp"
+						},
+						"credit": "Chris Seaman"
+					}
+				]
+			},
+			"uniqueId": "44463bd5-1798-4783-b50b-051af33dc833",
+			"damageTags": [
+				"N",
+				"O"
+			],
+			"damageTagsSpell": [
+				"B",
+				"F",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Sythian Skalderang",
+			"isNamedCreature": true,
+			"source": "CM-M",
+			"page": 1,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"bard",
+					"tiefling"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"Graz'zt's gift"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 48",
+				"average": 102
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 18,
+			"int": 14,
+			"wis": 12,
+			"cha": 20,
+			"skill": {
+				"arcana": "+6",
+				"deception": "+9",
+				"performance": "+13",
+				"religion": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Abyssal",
+				"Common"
+			],
+			"cr": "7",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Sythian casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 14}):"
+					],
+					"will": [
+						"{@spell mage hand}",
+						"{@spell prestidigitation}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell charm person}",
+							"{@spell faerie fire}",
+							"{@spell unseen servant}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fear of Frogs and Toads",
+					"entries": [
+						"Sythian is {@condition frightened} while he is within 20 feet of a frog or a toad (of any size) that he can see."
+					]
+				},
+				{
+					"name": "Graz'zt's Gift",
+					"entries": [
+						"Sythian's AC includes his Charisma modifier."
+					]
+				},
+				{
+					"name": "Bloodied",
+					"entries": [
+						"When Sythian becomes bloodied, he will spend his next action trying to summon Bael."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Sythian makes two Firebolt attacks and uses Whispers of Azzagrat."
+					]
+				},
+				{
+					"name": "Firebolt",
+					"entries": [
+						"{@atk rs} {@hit 9} to hit, range 120 ft., one target. {@h}16 ({@damage 3d10}) fire damage."
+					]
+				},
+				{
+					"name": "Whispers of Azzagrat",
+					"entries": [
+						"Each creature in a 15-foot cube originating from Sythian must make a {@dc 17} Wisdom saving throw. On a failed save, a creature takes 27 ({@damage 6d8}) psychic damage and is {@condition incapacitated} until the end of its next turn. On a successful save, the creature takes half as much damage and isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Fiendish Rebuke (3/Day)",
+					"entries": [
+						"Immediately after a creature within 5 feet of Sythian hits him with an attack roll, Sythian forces that creature to make a {@dc 14} Constitution saving throw. The creature takes 14 ({@damage 4d6}) fire damage on a failed saving throw, or half as much damage on a successful one."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"conditionInflictSpell": [
+				"charmed"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/KftGV/Sythian Skalderang.png",
+			"fluff": {
+				"name": "Sythian Skalderang",
+				"source": "KftGV",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Sythian Skalderang has been blessed by the demon lord Graz'zt. Graz'zt's gift to Sythian manifests in several ways, including Sythian's ability to conjure demonic whispers that can fray enemy minds.",
+							"When he was a young boy, Sythian went on a hunting trip with his father. A giant toad attacked them and swallowed Sythian. Although Sythian escaped after his father slew the monster, the attack left Sythian with an acute fear of frogs and toads.",
+							"Sythian's parents hoped his interest in music would lead Sythian to become an extraordinary musician; he became a mediocre one instead, despite the help of several renowned tutors. Years later, Sythian resents their efforts, as the money his parents lavished on his education left him with many unpaid debts. Now that his parents are dead, he is determined to hold on to his estate and will do whatever it takes to keep what he has left.",
+							"Sythian has attuned to Golden Axe so that he can learn and exercise the Canaith mandolin's properties. Although he hopes Golden Axe will earn him the good graces and financial support of the van Timmels, Sythian would sooner lose the instrument than see any harm befall his students, as his reputation and financial success hinge on their well-being. He gladly gives up the instrument to save himself.",
+							"Sythian is an impatient and demanding teacher who holds his students to a rigorous schedule. His bone conductor's wand doubles as a spellcasting focus."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/KftGV/Sythian Skalderang.webp"
+						},
+						"credit": "Kai Carpenter"
+					}
+				]
+			},
+			"uniqueId": "65c2b69e-eaee-484a-967f-e79603013808",
+			"save": {
+				"dex": "+6",
+				"wis": "+5",
+				"cha": "+9"
+			},
+			"damageTags": [
+				"F",
+				"Y"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Joster",
+			"isNamedCreature": true,
+			"source": "CM-M",
+			"page": 1,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"Graz'zt's gift"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 80",
+				"average": 170
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 60
+			},
+			"str": 20,
+			"dex": 16,
+			"con": 18,
+			"int": 14,
+			"wis": 16,
+			"cha": 22,
+			"save": {
+				"wis": "+8",
+				"cha": "+11",
+				"con": "+9",
+				"dex": "+8"
+			},
+			"skill": {
+				"insight": "+8",
+				"deception": "+16",
+				"intimidation": "+16",
+				"persuasion": "+16"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"cold",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"cr": "16",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Joster casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 19}):"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell major image}",
+						"{@spell nondetection}",
+						"{@spell sending}",
+						"{@spell suggestion}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell mislead}",
+							"{@spell modify memory}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Joster fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Joster has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Joster regains 10 hit points at the start of his turn. If he takes cold or radiant damage, this trait doesn't function at the start of his next turn."
+					]
+				},
+				{
+					"name": "Ventriloquism",
+					"entries": [
+						"Whenever Joster speaks, he can choose a point within 60 feet of him; his voice emanates from that point."
+					]
+				},
+				{
+					"name": "Bloodied",
+					"entries": [
+						"When Joster becomes blooded (85 HP), he makes an additional Silver Sword attack on his turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Joster makes one Silver Sword attack, and he uses Twisting Words."
+					]
+				},
+				{
+					"name": "Silver Sword",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}10 11 ({@damage 1d10 + 5}) force damage plus 16 ({@damage 3d10}) necrotic damage. If the target is a creature, its hit point maximum is reduced by an amount equal to half the necrotic damage taken."
+					]
+				},
+				{
+					"name": "Twisting Words",
+					"entries": [
+						"Joster targets one creature he can see within 60 feet of him. The target must succeed on a {@dc 19} Wisdom saving throw or take 14 ({@damage 4d6}) psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"Joster teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Teleport",
+					"entries": [
+						"Joster uses Teleport."
+					]
+				},
+				{
+					"name": "Assault",
+					"entries": [
+						"Joster makes one Twisting Words attack."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/titivilus.mp3"
+			},
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Teleport"
+			],
+			"languageTags": [
+				"XX",
+				"TP"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW",
+				"HPR"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"incapacitated",
+				"invisible"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MPMM/Titivilus.png",
+			"fluff": {
+				"name": "Titivilus",
+				"source": "MPMM",
+				"entries": [
+					"Dispater, the gloomy Lord of Dis, rules from his iron palace, seeming to hide behind its labyrinthine corridors, iron walls, diabolical traps, and monstrous servants. Knowing he has enemies on all sides and fearing he'll be displaced like Moloch, Geryon, and so many others, he almost never travels farther than the sprawling city that lies outside his palace.",
+					"Dispater is correct to fear, but the true threat comes not from without. The lord's great error was allowing himself to be seduced by Titivilus, who beguiled his way into being the primary advisor in Dispater's household.",
+					"Although Titivilus is inferior in physical strength and power when compared to other archdevils, he compensates with cunning. A shrewd politician, he has clawed his way up through the ranks to become the second-most powerful devil in Dis, entirely by saying the right thing at the right time to get what he wanted. Charming and pleasant, he is a master at negotiation, able to twist words so as to leave his victims confused and believing he's on their side. Through these skills, Titivilus has manipulated everyone along his path to power, either to win them over to his cause or to remove them as a threat.",
+					"Since gaining his position, Titivilus has convinced Dispater that countless plots are being hatched against him and that Asmodeus himself seeks to remove Dispater from power. In response, Dispater has withdrawn to his palace and left day-to-day decisions to Titivilus, even authorizing him to answer and negotiate bargains with mortals who attempt to summon Dispater. Titivilus now represents his master and speaks with his voice, a turn of events that leads some to whisper that either Titivilus is Dispater in disguise or Titivilus has removed the archduke and replaced him altogether.",
+					"Titivilus recognizes the precariousness of his position. After all, Dispater's acceptance of his plans and his advice can last only so long before some other plotter steps in and reveals the truth. For insurance, Titivilus has begun recruiting outsiders to deal with problem devils, to insulate him against criticism, and, above all, to create complications that he can solve so as to reinforce his value in the eyes of his master. Titivilus finds adventurers well suited to the tasks he needs performed and recruits them directly or through intermediaries, expending them later as his plans require."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MPMM/Titivilus.webp"
+						},
+						"credit": "Ralph Horsley"
+					}
+				]
+			},
+			"uniqueId": "d524bf19-00d7-444a-b5bb-5e9fbc6ede73",
+			"attachedItems": [
+				"silver sword|mtf"
+			],
+			"damageTags": [
+				"N",
+				"O",
+				"Y"
+			],
+			"damageTagsSpell": [
+				"B",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Green Abishai",
+			"source": "CM-M",
+			"page": 1,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"alignmentPrefix": "Typically ",
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				},
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					],
+					"condition": "bloodied"
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 80",
+				"average": 152
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 40
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 20,
+			"int": 16,
+			"wis": 14,
+			"cha": 20,
+			"save": {
+				"cha": "+10",
+				"wis": "+7"
+			},
+			"skill": {
+				"insight": "+7",
+				"perception": "+7",
+				"persuasion": "+10",
+				"deception": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"cold",
+				"fire",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Draconic",
+				"Infernal",
+				"telepathy 120 ft."
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The abishai casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell major image}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell charm person}",
+							"{@spell detect thoughts}",
+							"{@spell fear}"
+						],
+						"1e": [
+							"{@spell confusion}",
+							"{@spell dominate person}",
+							"{@spell mass suggestion}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the abishai's {@sense darkvision}."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The abishai has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Bloodied",
+					"entries": [
+						"When the green abishai is bloodied (76 HP), it gains +2 AC."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The abishai makes two Fiendish Claw attacks, or it makes one Fiendish Claw attack and uses Spellcasting."
+					]
+				},
+				{
+					"name": "Fiendish Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) force damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or take 16 ({@damage 3d10}) poison damage and become {@condition poisoned} for 1 minute. The {@condition poisoned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/green-abishai.mp3"
+			},
+			"traitTags": [
+				"Devil's Sight",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR",
+				"I",
+				"TP"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"frightened"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MPMM/Green Abishai.png",
+			"fluff": {
+				"name": "Green Abishai",
+				"source": "MPMM",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MPMM/Green Abishai.webp"
+						},
+						"credit": "Daniel Landerman"
+					}
+				],
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Green abishais are adept at discovering secrets and other sensitive information, while their diplomatic skills and their magic ensure they can manipulate even the shrewdest opponents."
+						]
+					},
+					{
+						"type": "section",
+						"name": "Abishais",
+						"entries": [
+							"Each abishai was once a mortal who somehow won Tiamat's favor before death and, as a reward, found its soul transformed into a draconic devil to serve at her pleasure in the Nine Hells. Each type of abishai is associated with one of Tiamat's five dragon heads: black, blue, green, red, and white.",
+							"Tiamat deploys abishais as her agents, sending them forth to represent her interests in the Hells and across the multiverse. Some have simple tasks, such as delivering a message to cultists. Others have greater responsibilities, such as leading large groups, assassinating targets, and serving in armies. In all cases, abishais are fanatically loyal to Tiamat, ready to lay down their lives if needed.",
+							"Abishais stand outside the normal hierarchy of the Nine Hells, having their own chain of command and ultimately answering to Tiamat (and Asmodeus, when he chooses to use them). Other archdevils can command abishais to work for them, but most archdevils do so rarely, since it is never clear whether an abishai follows Tiamat's orders or Asmodeus's. There is inherent risk in countermanding an order given by Tiamat, but interfering with Asmodeus's plans invites certain destruction."
+						]
+					}
+				]
+			},
+			"uniqueId": "532699b9-e28d-472d-ba45-fd2b94ab7780",
+			"damageTags": [
+				"I",
+				"O"
+			],
+			"damageTagsSpell": [
+				"B",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Red Abishai",
+			"source": "CM-M",
+			"page": 1,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"alignmentPrefix": "Typically ",
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "21d10 + 105",
+				"average": 220
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 50
+			},
+			"str": 22,
+			"dex": 16,
+			"con": 20,
+			"int": 14,
+			"wis": 16,
+			"cha": 20,
+			"save": {
+				"str": "+11",
+				"wis": "+8",
+				"con": "+10"
+			},
+			"skill": {
+				"perception": "+8",
+				"intimidation": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"resist": [
+				"cold",
+				"fire",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Draconic",
+				"Infernal",
+				"telepathy 120 ft."
+			],
+			"cr": "19",
+			"trait": [
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the abishai's {@sense darkvision}."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The abishai has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Bloodied",
+					"entries": [
+						"When the red abishai becomes bloodied, it recharges its Incite Fanaticism and uses it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The abishai makes one Bite attack and one Claw attack, and it can use Frightful Presence or Incite Fanaticism."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 22 ({@damage 4d10}) fire damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d10 + 6}) force damage plus 16 ({@damage 3d10}) fire damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the abishai's choice that is within 120 feet and aware of the abishai must succeed on a {@dc 17} Wisdom saving throw or become {@condition frightened} of it for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the abishai's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Incite Fanaticism {@recharge 5}",
+					"entries": [
+						"The abishai chooses up to four other creatures within 60 feet of it that can see it. Until the start of the abishai's next turn, each of those creatures makes attack rolls with advantage and can't be {@condition frightened}."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/red-abishai.mp3"
+			},
+			"traitTags": [
+				"Devil's Sight",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR",
+				"I",
+				"TP"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MPMM/Red Abishai.png",
+			"fluff": {
+				"name": "Red Abishai",
+				"source": "MPMM",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MPMM/Red Abishai.webp"
+						},
+						"credit": "Daniel Landerman"
+					}
+				],
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Red abishais have no equals among the abishais when it comes to leadership ability and raw power. Red abishais lead other devils into battle or take charge of troublesome cults to ensure that they continue to carry out Tiamat's commands. A red abishai cuts a fearsome figure, and that sight can be inspiring to the abishai's allies, filling them with a fanatical willingness to fight."
+						]
+					},
+					{
+						"type": "section",
+						"name": "Abishais",
+						"entries": [
+							"Each abishai was once a mortal who somehow won Tiamat's favor before death and, as a reward, found its soul transformed into a draconic devil to serve at her pleasure in the Nine Hells. Each type of abishai is associated with one of Tiamat's five dragon heads: black, blue, green, red, and white.",
+							"Tiamat deploys abishais as her agents, sending them forth to represent her interests in the Hells and across the multiverse. Some have simple tasks, such as delivering a message to cultists. Others have greater responsibilities, such as leading large groups, assassinating targets, and serving in armies. In all cases, abishais are fanatically loyal to Tiamat, ready to lay down their lives if needed.",
+							"Abishais stand outside the normal hierarchy of the Nine Hells, having their own chain of command and ultimately answering to Tiamat (and Asmodeus, when he chooses to use them). Other archdevils can command abishais to work for them, but most archdevils do so rarely, since it is never clear whether an abishai follows Tiamat's orders or Asmodeus's. There is inherent risk in countermanding an order given by Tiamat, but interfering with Asmodeus's plans invites certain destruction."
+						]
+					}
+				]
+			},
+			"uniqueId": "5af9f20a-e971-4ed3-87ae-50d715bc0f78",
+			"damageTags": [
+				"F",
+				"O",
+				"P"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Kelubar Demodand",
+			"source": "CM-M",
+			"page": 1,
+			"size": [
+				"M"
+			],
+			"type": "fiend",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"alignmentPrefix": "typically ",
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 56",
+				"average": 119
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 22,
+			"dex": 14,
+			"con": 18,
+			"int": 10,
+			"wis": 14,
+			"cha": 18,
+			"save": {
+				"dex": "+6",
+				"wis": "+6"
+			},
+			"skill": {
+				"insight": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"cold",
+				"necrotic"
+			],
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"conditionImmune": [
+				"paralyzed",
+				"poisoned",
+				"restrained"
+			],
+			"languages": [
+				"Abyssal",
+				"Demodand",
+				"telepathy 120 ft."
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The kelubar casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
+					],
+					"will": [
+						"{@spell invisibility} (self only)"
+					],
+					"daily": {
+						"1e": [
+							"{@spell dispel magic}",
+							"{@spell scrying} (as an action)"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Acidic Aura",
+					"entries": [
+						"A creature that starts its turn within 5 feet of the kelubar or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 2d4}) acid damage."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The kelubar has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Bloodied",
+					"entries": [
+						"When the kelubar becomes bloodied (60 HP), its Spit Acid instantly recharges and is used as a reaction at the creature that last damaged the kelubar."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kelubar makes two Bite attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d10 + 6}) piercing damage plus 9 ({@damage 2d8}) acid damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"TP"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"invisible"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MPP/Kelubar Demodand.png",
+			"fluff": {
+				"name": "Kelubar Demodand",
+				"source": "MPP",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Kelubars, sometimes called slimy demodands, are the bureaucrats of Carceri, existing as intermediaries between farastus and shators. They are squat, and their skin drips with a foul-smelling, acidic slime. Kelubars revel in the subservience of others, and they prefer to do battle with words—or at least to send in their farastu minions—rather than fight directly."
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Demodands",
+								"entries": [
+									"Demodands, also called gehreleths, are Fiends from the Tarterian Depths of Carceri. Cast into the prison plane long ago for forgotten transgressions, these bitter, wicked creatures have appointed themselves the jailers of the plane. Demodands viciously defend the few known portals that lead out of Carceri and ruthlessly torment other creatures trapped there.",
+									"Demodands that manage to leave Carceri know they're doomed to return; a demodand that dies outside Carceri re-forms there in a torturous process that takes {@dice 2d20} days. Even those who survive on other planes find themselves eventually dragged back, pulled by some planar tether."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MPP/Kelubar Demodand.webp"
+						}
+					}
+				]
+			},
+			"uniqueId": "8d7eaf9d-e7a9-4b24-acdc-12e130640094",
+			"bonus": [
+				{
+					"name": "Spit Acid {@recharge 6}",
+					"entries": [
+						"The kelubar spits acid in a line 60 feet long and 5 feet wide. Each creature in that area must make a {@dc 16} Dexterity saving throw, taking 21 ({@damage 6d6}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"damageTags": [
+				"A",
+				"P"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Ultroloth",
+			"source": "CM-M",
+			"page": 1,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"yugoloth"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "19d8 + 76",
+				"average": 161
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 18,
+			"int": 18,
+			"wis": 16,
+			"cha": 20,
+			"skill": {
+				"intimidation": "+10",
+				"perception": "+8",
+				"stealth": "+9"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 18,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				"necrotic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Infernal",
+				"telepathy 120 ft."
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The ultroloth's innate spellcasting ability is Charisma (spell save {@dc 18}). The ultroloth can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell clairvoyance}",
+						"{@spell darkness}",
+						"{@spell detect magic}",
+						"{@spell detect thoughts}",
+						"{@spell dispel magic}",
+						"{@spell invisibility} (self only)",
+						"{@spell suggestion}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell dimension door}",
+							"{@spell fear}",
+							"{@spell wall of fire}"
+						],
+						"1e": [
+							"{@spell fire storm}",
+							"{@spell mass suggestion}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The ultroloth's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Bloodied",
+					"entries": [
+						"When the ultroloth becomes bloodied (80 HP), it uses its reaction to cast Fire Storm. If it has already casted Fire Storm, it'll cast Wall of Fire instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ultroloth can use its Hypnotic Gaze and makes three melee attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 4}) slashing damage and 6 ({@damage 1d10}) necrotic damage."
+					]
+				},
+				{
+					"name": "Hypnotic Gaze",
+					"entries": [
+						"The ultroloth's eyes sparkle with opalescent light as it targets one creature it can see within 30 feet of it. If the target can see the ultroloth, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} until the end of the ultroloth's next turn. If the target's saving throw is successful, the target is immune to the ultroloth's gaze for the next 24 hours."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"The ultroloth magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Yugoloth Summoning",
+					"entries": [
+						"Some yugoloths have an action option that allows them to summon other yugoloths.",
+						{
+							"name": "Summon Yugoloth (1/Day)",
+							"type": "entries",
+							"entries": [
+								"The yugoloth chooses what to summon and attempts a magical summoning.",
+								"An ultroloth has a {@chance 50|50 percent|50% summoning chance} chance of summoning {@dice 1d6} {@creature mezzoloth||mezzoloths}, {@dice 1d4} {@creature nycaloth||nycaloths}, or one ultroloth.",
+								"A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other yugoloths. The summoned yugoloth remains for 1 minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it."
+							]
+						}
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/ultroloth.mp3"
+			},
+			"attachedItems": [
+				"longsword|phb"
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Teleport"
+			],
+			"languageTags": [
+				"AB",
+				"I",
+				"TP"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"frightened",
+				"invisible"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Ultroloth.png",
+			"fluff": {
+				"name": "Ultroloth",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Ultroloths command the yugoloth armies of the Blood War. An ultroloth looks like a slender gray-skinned humanoid with an elongated head. Its face bears no features except for two ovoid eyes. These eyes can become sparkling pools of light that can transfix other creatures and leave them reeling and helpless.",
+									"Frequently at one another's throats, ultroloths continually scheme to enhance their own power. When not employed to fight in the Blood War, ultroloths lead yugoloth forces throughout the planes, acting as crime bosses or commanders of evil mercenary companies.",
+									"With a reputation for cruelty, ultroloths command their minions to fight while the ultroloths stay removed from combat themselves. Lesser yugoloths know their place when facing an ultroloth and respond to its summons without demand for payment."
+								]
+							}
+						]
+					},
+					{
+						"type": "section",
+						"name": "Yugoloths",
+						"entries": [
+							"Yugoloths are fickle fiends that inhabit the planes of Acheron, Gehenna, Hades, and Carceri. They act as mercenaries and are notorious for their shifting loyalties. They are the embodiments of avarice. Before serving under anyone's banner, a yugoloth asks the only question on its mind: {@i What's in it for me?}",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "Spawn of Gehenna",
+												"entries": [
+													"The first yugoloths were created by a sisterhood of night hags on Gehenna. It is widely believed that Asmodeus, Lord of the Nine Hells, commissioned the work, in the hope of creating an army of fiends that were not bound to the Nine Hells. In the course of making this new army, the hags crafted four magic tomes and recorded the true names of every yugoloth they created, save one, the General of Gehenna. These tomes were called the Books of Keeping. Since knowing a fiend's true name grants power over it, the hags used the books to ensure the yugoloths' loyalty. They also used the books to capture the true names of other fiends that crossed them. It is rumored that the Books of Keeping contain the true names of a few demon lords and archdevils as well.",
+													"Petty jealousies and endless bickering caused the sisterhood to dissolve, and in the ensuing power grab, the Books of Keeping were lost or stolen. No longer indentured to anyone, the yugoloths gained independence, and they now offer their services to the highest bidder."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Fiendish Mercenaries",
+												"entries": [
+													"Summoned yugoloths demand much for their time and loyalty. Whatever promises a yugoloth makes are quickly broken when a better opportunity presents itself. Unlike demons, yugoloths can be reasoned with, but unlike devils, they are rarely true to their word.",
+													"Yugoloths can be found anywhere, but the high cost of maintaining a yugoloth army's loyalty typically exceeds what any warlord on the Material Plane can pay. Being self-serving creatures, yugoloths quarrel among themselves constantly. A yugoloth army is more organized than a ravening horde of demons, but far less orderly and regimented than a legion of devils. Without a powerful leader to keep them in line, yugoloths fight simply to indulge their violent predilections, and only as long as it benefits them to do so."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Back to Gehenna",
+												"entries": [
+													"When a yugoloth dies, it dissolves into a pool of ichor and reforms at full strength on the Bleak Eternity of Gehenna. Only on its native plane can a yugoloth be destroyed permanently. A yugoloth knows this and acts accordingly. When summoned to other planes, a yugoloth fights without concern for its own well-being. On Gehenna, it is more apt to retreat or plead for mercy if its demise seems imminent.",
+													"When a yugoloth is permanently destroyed, its name vanishes from every Book of Keeping. If a yugoloth is re-created by way of an unholy ritual requiring the expenditure of souls, its name reappears in the books."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "The Books of Keeping",
+												"entries": [
+													"When all four copies of the Books of Keeping disappeared, Asmodeus and the night hags lost control of their yugoloth creations. Each Book of Keeping still exists, drifting from plane to plane, where the brave and the foolish occasionally stumble upon them. A yugoloth summoned using its true name, as inscribed in the Books of Keeping, is forced to serve its summoner obediently. The yugoloth hates being controlled in this manner and isn't shy about making its displeasure known. Like a petulant child, it will follow its instructions to the letter while looking for opportunities to misinterpret them."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "The General of Gehenna",
+												"entries": [
+													"Somewhere in the brimstone wastes of Gehenna, there roams an ultroloth so strong that none contests his power: the General of Gehenna. Many yugoloths search for this great general in the hope of serving with him. They believe that service with the General of Gehenna grants power and prestige among lower planar entities.",
+													"Whatever the case, no fiend finds the General unless the General desires it. His personal name is unknown, and even the Books of Keeping contain no mention of this powerful, thoroughly evil entity."
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"type": "inset",
+								"name": "Variant: Yugoloth Summoning",
+								"entries": [
+									"Some yugoloths can have an action option that allows them to summon other yugoloths.",
+									{
+										"type": "entries",
+										"name": "Summon Yugoloth (1/Day)",
+										"entries": [
+											"The yugoloth chooses what to summon and attempts a magical summoning.",
+											{
+												"type": "list",
+												"items": [
+													"An arcanaloth has a {@chance 40} chance of summoning one arcanaloth.",
+													"A mezzoloth has a {@chance 30} chance of summoning one mezzoloth.",
+													"A nycaloth has a {@chance 50} chance of summoning {@dice 1d4} mezzoloths or one nycaloth.",
+													"An ultroloth has a {@chance 50} chance of summoning {@dice 1d6} mezzoloths, {@dice 1d4} nycaloths, or one ultroloth."
+												]
+											},
+											"A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, does as it pleases (unless its summoner is an ultroloth, in which case it acts as an ally of its summoner), and can't summon other yugoloths. The summoned yugoloth remains for l minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it"
+										]
+									}
+								]
+							},
+							{
+								"type": "insetReadaloud",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"Power. We all crave it, but only a select few of us deserve it."
+										],
+										"by": "Shemeshka the Marauder",
+										"from": "arcanaloth in Sigil"
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Ultroloth.webp"
+						}
+					}
+				]
+			},
+			"uniqueId": "7b641d7f-b1d4-4ca0-9377-ec94b4db3bd2",
+			"save": {
+				"cha": "+10",
+				"dex": "+9"
+			},
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"damageTagsSpell": [
+				"B",
+				"F",
+				"O",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			]
 		}
 	],
 	"item": [
