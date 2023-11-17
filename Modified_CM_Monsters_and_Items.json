@@ -1724,8 +1724,8 @@
 				}
 			],
 			"hp": {
-				"formula": "40d20 + 320",
-				"average": 740
+				"formula": "43d20 + 344",
+				"average": 795
 			},
 			"speed": {
 				"walk": 40,
@@ -1773,7 +1773,8 @@
 				{
 					"name": "Mythic Awakening",
 					"entries": [
-						"If the dragon is reduced to below half hit points, it recharges its Breath Weapon and regains any expended uses of Legendary Resistance. Additionally, the dragon can now use the options in the \"Mythic Actions\" section for 1 hour."
+						"If the dragon is reduced to below half hit points, it regains any expended uses of Legendary Resistance, and the dragon can now use the options in the \"Mythic Actions\" section for 1 hour.",
+						"Additionally. a bolt of lightning collapses part of the ceiling. All creatures and objects need to make a {@dc 21} Dexterity saving throw taking 27 {@damage 6d8} bludgeoning damage, or half as much on success."
 					]
 				}
 			],
@@ -1787,31 +1788,37 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage plus 11 ({@damage 2d10}) lightning damage."
+						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d12 + 8}) piercing damage plus 13 ({@damage 2d12}) lightning damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d8 + 8}) slashing damage."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+						"{@atk mw} {@hit 14} to hit, reach 20 ft., one target. {@h}19 ({@damage 2d10 + 8}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Lightning Spear",
 					"entries": [
-						"{@atk rw} {@hit 14} to hit, reach 120 ft., four targets. {@h}13 ({@damage 1d8+ 8}) lightning damage."
+						"{@atk rw} {@hit 14} to hit, reach 120 ft., four targets. {@h}19 ({@damage 3d6+ 8}) lightning damage."
 					]
 				},
 				{
 					"name": "Lightning Breath {@recharge 5}",
 					"entries": [
-						"The dragon exhales lightning in a 90-foot cone. Each creature in that line must make a {@dc 21} Dexterity saving throw, taking 56 ({@damage 16d6}) lightning damage on a failed save, or half as much damage on a successful one."
+						"The dragon exhales lightning in a 90-foot cone. Each creature in that line must make a {@dc 21} Dexterity saving throw, taking 60 ({@damage 24d4}) lightning damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 20} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
 					]
 				}
 			],
@@ -1880,6 +1887,7 @@
 				"AOE"
 			],
 			"conditionInflict": [
+				"frightened",
 				"prone"
 			],
 			"conditionInflictLegendary": [
@@ -2162,21 +2170,14 @@
 				{
 					"name": "Chromatic Flare (Costs 2 Actions)",
 					"entries": [
-						"The dragon flares with elemental energy. Each creature in a 60-foot-radius sphere centered on the dragon must succeed on a {@dc 21} Dexterity saving throw or take 18 ({@damage 4d8}) lightning damage."
+						"The dragon flares with elemental energy. Each creature in a 60-foot-radius sphere centered on the dragon must succeed on a {@dc 21} Dexterity saving throw or take 22 ({@damage 4d10}) lightning damage."
 					]
 				}
 			],
 			"mythicHeader": [
 				"If the dragon's Mythic Awakening trait has activated in the last hour, it can use the options below as legendary actions."
 			],
-			"reaction": [
-				{
-					"name": "Spell Reflection",
-					"entries": [
-						"If the dragon makes a successful saving throw against a spell or a spell attack misses it, the dragon can make a Dexterity check with a DC equal to 10 + the spell's level to blow the spell back at a new target. If the spell forces a saving throw, the target makes its own save, or if it was an attack, the attack roll is rerolled at the chosen target."
-					]
-				}
-			],
+			"uniqueId": "2677d5ed-401a-429b-8834-a22feeb6f0ee",
 			"damageTags": [
 				"B",
 				"L",
@@ -2188,13 +2189,13 @@
 				"L"
 			],
 			"savingThrowForced": [
-				"dexterity"
+				"dexterity",
+				"wisdom"
 			],
 			"savingThrowForcedLegendary": [
 				"constitution",
 				"dexterity"
-			],
-			"uniqueId": "2677d5ed-401a-429b-8834-a22feeb6f0ee"
+			]
 		},
 		{
 			"name": "Flind (melee)",
